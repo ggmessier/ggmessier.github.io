@@ -5,6 +5,13 @@
 layout: default
 ---
 
+## Useful Information for Graduate Students
+
+* [Technical Writing Tips](pages/writing)
+* [How to Do a Literature Search](pages/litsearch)
+* [How to Land an Industry Job](pages/jobsearch)
+
+
 ## Project List
 
 * [ISA100.11a ns3 Network Simulator](pages/isa100)
