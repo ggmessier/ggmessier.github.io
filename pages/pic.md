@@ -1,0 +1,161 @@
+---
+layout: project
+repository_url: https://github.com/ggmessier/pic
+---
+# PIC Robot Brain
+
+The mainboard:
+* 20 pin SOIC PIC
+* SPI external FLASH
+* Low profile headers for all IO
+* Programming connector
+* Power connector
+
+
+# Power
+
+Include power budgets here and expected lifetime
+
+* AA for servo control
+* Lithium coin for electronic only
+
+# Interface
+
+Data Communication:
+* USB to Andriod tablet and/or phone.  Could be extended later to a USB link to a PIC that has a wireless interface to other PICs.
+
+Sensors:
+* Infra-red proximity.
+* Infra-red remote control.
+* SPI accelerometer/gyro
+* Mechanical whiskers
+
+Actuators:
+* Servos
+
+Human inputs
+* Bank of buttons
+* Microphone (clapping and maybe voice later...?)
+
+Human outputs
+* Small LED screen
+* Speaker
+
+
+# Daughtercard - Flex
+
+
+
+
+
+
+
+
+
+## Development Environment 
+
+ns3 is a discrete event simulator written in C++.  It is a very large open source software project and you will need to spend some time setting up your C++ development environment in order to work effectively with the simulator.
+
+You will be working with three main components:
+* The ns3 source code.
+* The eclipse development environment.
+* Internal FISH Lab ns3 code that is controlled using the subversion revision control server.
+
+Note that the instruction below assumes that you're using either a linux machine or a mac (OS X is also a unix based operating system under the hood).  Installing and running ns3 on Windows is not recommended.  If you want to also use windows, also install linux on your machine using either a virtual machine or dual boot setup.
+
+### The ns3 Source Code 
+The ns3 simulator is essentially just a bunch of directories filled with C++ files.  The simulator is configured, compiled and run using the `waf` script system.
+
+Your first step should be to install the ns3 source code from the command line using mercurial as described [here](http://www.nsnam.org/wiki/Installation).  Rather than downloading the entire simulation package (which has a bunch of visualization stuff we don't need and is fussy to compile), you should download just the ns3 code itself.  So, instead of using the `ns-3-allinone` source directory, target just the core ns3 simulator by typing:
+
+```
+hg clone http://code.nsnam.org/ns-3.27
+```
+
+or whatever version of the code is most up to date (3.27, etc.).
+
+### The FISH Lab Code
+The FISH Lab ns3 code has been developed over time by Dr. Messier and other students like you.  This code is organized and maintained on [GitHub](http://www.github.com).  It is managed using a branch and merge approach.  You will be given your own branch of the simulator source code that you can modify and update on GitHub to keep track of your changes.  Dr. Messier will periodically examine your code with you and provide feedback on your software design.  Software development organizations refer to this as a code review.
+
+To start working in your own branch, follow these steps:
+
+1. Create a GitHub account.
+1. Inform Dr. Messier of your GitHub username.  He will add you as a collaborator on the ISA100 ns3 code and create a branch for you.
+1. Once Dr. Messier gives you your branch name, you need to clone a copy of it on your local machine using the command:
+```
+git clone -b your-branch-name --single-branch https://github.com/ggmessier/ns3-isa100.11a.git your-branch-name
+```
+where `your-branch-name` will be the branch name Dr. Messier gives you.  This will create a copy of the ISA100 simulator code on your machine in a directory with the same name as your branch.
+1. The ns3 simulator contains many different simulation modules all contained in its `src` directory.  You need to add a symbolic link to the ISA100 code from the `src` directory within your ns3 installation.  You do this using the command 
+```
+cd src
+ln -s <path containing cloned code>/your-branch-name isa100-11a
+```
+which creates a symbolic link named `isa100-11a`.
+1. Re-run `waf configure` and recompile the simulation to make sure there are no errors.
+
+### cplex
+The current version of the IS100 code requires IBM's [CPLEX library](https://www.ibm.com/developerworks/community/blogs/jfp/entry/CPLEX_Is_Free_For_Students?lang=en).  You should download the linux version of the library and ensure you have all the pre-req linux packages to compile it.
+
+Once you have CPLEX installed, you will need to modify the `wscript`
+
+
+### Eclipse
+The eclipse program is essentially a very sophisticated code editor that also provides an interface for you to manage GitHub cloned code, compile the simulator and debug it.
+
+To install, just follow the directions [here](https://www.eclipse.org/) and make sure you install C++ language support and the git plug-in.  Your computer also needs a command line C++ compiler (usually gcc) and the GNU debugger (gdb or ggdb).
+
+The next step is to configure eclipse to interact with the ns3 project.  The main instructions can be found [here](http://www.nsnam.org/wiki/HOWTO_configure_Eclipse_with_ns-3) with some additional instructions given at the end of this section.  
+
+* You should skip the section about configuring mercurial within eclipse.  Mercurial and git don't work within the same project so you should **not** install mercurial within eclipse.
+* The page talks about the `ns-3-dev` directory but your directory will likely be named `ns-3.27` (or whatever version number is most recent).
+* When configuring the debugger, the "Search Project" button may not work when trying to find the binary to debug.  You can find the binary by manually browsing through the `build/scratch` subdirectory and looking for something that matches the name of the source file you've copied into the ns3 scratch directory.
+* You may have to use the Browse button to manually enter the full path location of the gdb debugger if eclipse is complaining it can't find it.  You do this in the Debugger tab when doing your debug configuration.
+* I used the first method described in the eclipse runner configuration section, even though the website says most people use the second method.
+
+
+## Learning ns3
+
+Logically, you need to first learn how ns3 works before you can learn the ISA100 ns3 simulation.  Currently, the FISH ISA code works with ns version 3.27 and the documentation for this release of the simulator can be found  [here](http://www.nsnam.org/ns-3-27/documentation/).  There are three documents you should look at: the tutorial, the manual and the doxygen API page.
+
+### The Tutorial 
+This is the best place to start.  It's all worth a look but you should for sure go over:
+- Getting Started
+- Conceptual Overview
+- Tweaking
+- Building Topologies
+- Tracing
+
+### The Manual
+The important sections here are:
+- Events and Simulator
+- Callbacks
+- Object Model
+- Configuration and Attributes
+- Logging
+- Tracing
+
+In particular, you should be clear that you understand logging and tracing since those are the mechanisms that you will use to get performance data out of your simulator.
+
+### The Doxygen API Page
+This page is auto-generated by the doxygen tool and is essentially a gigantic listing of all classes, member functions, member variables, etc. that make up the ns3 simulator.  You definitely should **not** attempt to read this as a learning exercise.  It's useful mainly for it's little search window that allows you to search up specific classes and functions.
+
+
+
+
+## The ISA100.11a Code
+
+ISA100.11a is a wireless networking standard specifically designed for high reliability industrial control applications.  The standard utilizes an 802.15.4 physical layer and then redefines everything from the data link (DL) layer upwards.  The purpose of this page is to help you learn the FISH implementation of the ns3 ISA100.11a simulator.
+
+
+### The ISA 100 Simulator Documentation
+Located in the `doc` directory of the ISA100 SVN repository is a document written specifically to describe the FISH simulation.  It's a relatively brief, very high level document but it should give you a rough idea of what classes do what and how the different objects in the simulator interact.
+
+After reading this document, you can start going through the code with the help of the ISA 100 doxygen page for the code that you generate yourself by simply typing `doxygen` in the root directory of ISA100 sim code directory.  This will auto-generate a doxygen page in the empty doxygen directory in your branch.  You can view the page by opening `doxygen/html/index.html` within your web browser.
+
+### The Standards
+Before diving into the standards documents, it's useful to read over a few survey papers that provide an overview of the ISA 100 standard and wireless networking for automation in general.  Two good ones are written by Petersen and Christin and can be found in the `doc/refs` directory of the ISA100 simulator code.
+
+The 802.15.4 and ISA100 standards documents are located in the ''doc'' directory of the FISH ISA100 simulation code SVN repository.  These documents are difficult to read start to finish and you should not attempt this.  However, you should at least scan the table of contents and the intro sections to each chapter to get an idea of what the documents contain.  As you develop your simulation, you will almost certainly be referring to these documents to see if what you're doing does/doesn't satisfy the standards.
+
+
