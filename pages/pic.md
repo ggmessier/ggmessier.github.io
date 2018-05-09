@@ -4,45 +4,22 @@ repository_url: https://github.com/ggmessier/pic
 ---
 # PIC Robot Brain
 
-The mainboard:
-* 20 pin SOIC PIC
-* SPI external FLASH
-* Low profile headers for all IO
-* Programming connector
-* Power connector
+This page discusses the design of a basic micro-controller board that utilizes a PIC microcontroller from [Microchip](http://microchip.com).  The processors I've selected are from the [PIC16F1777/8/9](http://www.microchip.com/wwwproducts/en/PIC16F1779) family since they seem to be the 8 bit PICs that have the most options for interfacing to analog circuitry.
+
+Let's start with the PIC16F1778 since it comes in a 28 pin SOIC package which is a compromise between being easy to solder and having the most pins.  As an alternate, we could also use the PIC16F1779 which has 40 pins and comes in a DIP package.  Fairly large, though.
+
+## Interconnect
+
+90 degree female header pins are used for power, in-circuit programming and UART communication with the PIC.  Male headers will be used to allow daughtercards to plug into the PIC board.
 
 
-# Power
+## Power
 
-Include power budgets here and expected lifetime
+An ADP7142 voltage regulator is used to provide 3.3V to the circuit.  This means the input voltage connected to "Vin" on the header can range from ~4V up to 44V.  This means the board will run on 3 AA/AAA batteries (minimum) or any of the thousands of 12V wall warts I seem to have lying around.
 
-* AA for servo control
-* Lithium coin for electronic only
+## Audio
 
-# Interface
-
-Data Communication:
-* USB to Andriod tablet and/or phone.  Could be extended later to a USB link to a PIC that has a wireless interface to other PICs.
-
-Sensors:
-* Infra-red proximity.
-* Infra-red remote control.
-* SPI accelerometer/gyro
-* Mechanical whiskers
-
-Actuators:
-* Servos
-
-Human inputs
-* Bank of buttons
-* Microphone (clapping and maybe voice later...?)
-
-Human outputs
-* Small LED screen
-* Speaker
-
-
-# Daughtercard - Flex
+Audio clips are currently captured from YouTube, recorded using Screenflow and then exported in AIFF format.  At that point, they're loaded into Audacity, converted to mono and exported as header-less unsigned 8-bit PCM files at a sample rate of 44.1kHz.  The pulse coded modulation (PCM) seems just to be the raw 8 bit sample values.
 
 
 
