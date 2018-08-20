@@ -36,5 +36,5 @@ You can also view a list of the classes I've taught in the past [here](pages/tea
 ## Projects
 
 * [ISA100.11a ns3 Network Simulator](pages/isa100)
-* [Baseball Stats & Machine Learning](pages/baseball)
+* [Data Analytics](pages/data)
 * [Robot Frogs](pages/frogs)

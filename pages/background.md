@@ -3,6 +3,9 @@ layout: default
 ---
 
 ## Awards
+- Schulich School of Engineering Teaching Achievement Award (2017-2018)
+- Schulich School of Engineering Teaching Achievement Award (2016-2017)
+- Schulich School of Engineering Research Achievement Award (2016-2017)
 - Electrical and Computer Engineering Teaching Excellence Award (2013)
 - Schulich School of Engineering Outstanding Teaching Recognition Certificate (2012-2013)
 - Electrical Engineering Graduate Educator Award (2009)
