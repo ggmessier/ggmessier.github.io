@@ -34,6 +34,9 @@ The brain will have an Adesto [AT25SF321](https://www.adestotech.com/wp-content/
 - The Read Array command allows data bytes to be read one after the other for a maximum read rate of 8~MHz/8~bits/byte = 1Mbyte/sec.
 - The slowest read rate would occur assuming a separate Read Array command was issued for each byte.  This introduces 4 bytes of command/address overhead which results in a read rate of 8~MHz/40~bits/read = 200~kbyte/sec.  This is still easily fast enough for audio applications.
 
+
+
+
 ## Daughtercard Interface
 
 A group of 4 1x8 headers are used to allow the brain board to plug into a daughter card.  The headers are divided into 2 groups of 2.  In each group, the headers are separated by 2.54~mm (the header pin spacing) and the centers of the two groups are separated by 32~mm.
