@@ -6,11 +6,16 @@ The first goal of my research program is to remove the barriers for using wirele
 
 ### Technical Research Program
 
-My first area of interest is understanding how the physical environment affects communication propagation.  My group has conducted over 9 different field experiments to collect wired and wireless signal propagation channel measurements.  Analysis of these measurements leads to new statistical models for how communications signals behave.
+My research area is the design of digital communications networks for industrial applications.  This work involves:
+ + Wired and wireless network protocol design and optimization.
+ + The exploration of cyber-physical systems and how network behavior affects the quality of services using that network.
+ + The application of machine learning techniques to real world industrial data in order to determine how network design needs to evolve to accomodate changes in network application traffic and utilization.
 
-My second area of research is utilizing propagation measurements to improve the design of communications systems.  As our propagation measurement research reveals new information about how communication signals are distorted in the channel, it is necessary to modify the design of the communications transmitter and receiver to compensate for these impairments.  This leads to new physical layer research involving modulation, signal detection, coding and channel estimation.
+### Open Positions
 
-My final area of interest is the design of wireless networks for industrial environments.    This work falls into the area of cyber-physical systems and involves finding the best ways to control physical systems over data networks.  While this research is applicable to any industrial setting, my focus is primarily on petroleum facilities due to the importance of the energy industry to Alberta and Canada.  Specifically, we are exploring new high reliability and low latency networking techniques that will ensure the stability of the industrial process control algorithms running over the network.
+I am currently interviewing candidates for a funded PhD position in my research group.  The start date for this position is September 2019.  This candidate will be conducting research on applying machine learning and data mining techniques to Alberta petroleum production data and then utilizing the results to design the best network for monitoring and controlling that petroleum production.  A background in artifician intelligence, machine learning, network design and software development is an asset.
+
+If you are interested in applying for this position, please see the *Interested in joining us?* section below with details regarding how to proceed.
 
 ### Student Experience
 It is my goal to provide all of my research students with the opportunity to grow by developing their own innovative solutions to important research problems.  The structure of my program is intended not only to develop technical research skills but also communications, teamwork and hands-on experimental skills.
@@ -28,7 +33,7 @@ I am always interested in reviewing applications from well qualified students in
 
   * A complete CV summarizing both your academic and work experience.
   * A scanned version of your transcripts.
-  * A one page letter explaining which of the research areas I have listed above that most interest you and why you feel you are a good candidate to work in your area of interest.  The more specific you can be, the better your chances.
+  * A one page letter explaining why you feel you are a good fit for an opening in my group.  The more specific you can be, the better your chances.
   * An indication of whether you already have financial support or if you will require funding from the University of Calgary.
 
 I tend not to consider “form letters” or generic emails sent to a large number of recipients.  I will consider your application only if it is clear you have followed these instructions and have made an effort to put together an application that is specifically for me.

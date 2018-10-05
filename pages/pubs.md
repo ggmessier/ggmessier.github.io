@@ -3,6 +3,8 @@ layout: default
 ---
 
 ### Journal Papers
+1. M. Herrmann and G. G. Messier, “Cross-Layer Lifetime Optimization for Practical Industrial Wireless Networks: A Petroleum Refinery Case Study,” IEEE Transactions on Industrial Informatics, vol. 14, no. 8, pp. 3559–3566, 2018.<br>
+1. K. Dorling, J. Heinrichs, G. G. Messier, and S. Magierowski, “Vehicle Routing Problems for Drone Delivery,” IEEE Transactions on Systems, Man and Cybernetics, vol. 47, no. 1, pp. 70–85, 2017.<br>
 1. Indrakshi Dey, Geoffrey G Messier, and Sebastian Magierowski, “Average error rates and achievable capacity in large office indoor wireless environments,” IEEE Transactions on Communications, vol. 65, no. 11, pp. 4955–4965, 2017.<br>
 1. K. Dorling, J. Heinrichs, G. G. Messier, and S. Magierowski, “Vehicle routing problems for drone delivery,” IEEE Transactions on Systems, Man and Cybernetics, vol. 47, no. 1, pp. 70–85, Jan. 2017.<br>
 1. Geoffrey G Messier, Michael W Wasson, and Michael J Herrmann, “Petroleum refinery mesh network propagation measurements,” IEEE Transactions on Antennas and Propagation, vol. 65, no. 10, pp. 5645–5648, 2017.<br>
@@ -46,6 +48,7 @@ layout: default
 
 
 ### Conference Papers
+1. R. Hossain, R. Mittmann, E. Ghafar-Zadeh, G. G. Messier, and S. Magierowski, “GPU base calling for DNA strand sequencing,” in Proceedings of the IEEE 60th International Midwest Symposium on Circuits and Systems (MWSCAS 2017), 2017, pp. 96–99.<br>
 1. Indrakshi Dey, Geoffrey G Messier, and Sebastian Magierowski, “Adaptive modulation and coding for large open office indoor wireless environments,” in 2016 IEEE 84th Vehicular Technology Conference (VTC-Fall). IEEE, 2016, pp. 1–5.<br>
 1. I. Dey, G.G. Messier, and S. Magierowski, “Pairwise error probability of turbo codes over joint fading and two-path shadowing channels,” in Proceedings of the 2014 IEEE Global Communications Conference (GLOBECOM), Dec 2014, pp. 3995–4000.<br>
 1. S.W. Lai, N. Shabehpour, G.G. Messier, and L. Lampe, “Performance of wireless/power line media diversity in the office environment,” in Proceedings of the 2014 IEEE Global Communications Conference (GLOBECOM), Dec 2014, pp. 2972–2976.<br>

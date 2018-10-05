@@ -17,7 +17,7 @@ Office: Room 308, Information and Communication Technology (ICT) Building<br>
 
 ## Research
 
-* [Research Program Description for Prospective Graduate Students](pages/research-program)
+* [Open Positions & Research Program Details for Prospective Graduate Students](pages/research-program)
 * [Publications](pages/pubs)
 
 ## Teaching
