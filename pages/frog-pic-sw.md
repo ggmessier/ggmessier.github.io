@@ -70,7 +70,7 @@ We want SMP=0 since we will sample data on the rising edge while the FLASH chip 
 
 The FLASH chip has a 32 Mbit capacity which is divided up into $2^{22}/256 = 16,384$ 256 byte pages (address range 0x000000 to 0x3fffff).  The chip moves from low to high addresses when programming and reading.  It will also wrap around within a page if it reaches the end of a page boundary.
 
-# Frog File System
+### Frog File System
 
 A rudimentary file system is used where the first page (starting at address 0x000000) contains an index table for multiple files stored within the FLASH chip.  Each file is represented by a 20 byte entry:
 - Byte 0: Valid entry ID bit equal to 0x33 (invalid entries will have the "erased" value of 0xff).
@@ -85,7 +85,7 @@ Files are constrained to start on multiples of 4 kB to allow for block erase ope
 
 
 
-# Reading and Writing
+### Reading and Writing
 
 While extra pins can be used in parallel to enhance read speed, only the single pin read command (opcode 0x03) is supported.  It is assumed the read speed will always be below the 50 MHz maximum for the 0x03 read.  Once the 3 address bytes are clocked in, data is continuously read until $\widebar{CS}$ is diasserted.  When the end of address space is reached (0x3fffff), the read wraps around to 0x000000.  The read routine accepts the file index number, a number of bytes to read and an array for storing the bytes.
 
@@ -119,6 +119,13 @@ The user interface is currently a simple 1 character input scheme with `'?'` lis
 This is a *very* lightweight implementation of the kermit protocol meant for downloading/uploading data to/from the SPI FLASH chip.  Currently, it only allows the PIC to accept uploads from a computer kermit program.  It is implemented in `pic-kermit.c` and `pic-kermit.h`.
 
 When debugging, it's useful to use the `log packets` option in kermit.  However, note that only received packets that are correctly formatted (and likely pass the checksum tho haven't verified) get written to the logfile.  So, it's not super useful to see what the kermit program is doing with bytes it receives but doesn't like.
+
+To upload a binary file, we type the following commands into kermit
+
+```
+set baud 115200
+send file.extension
+```
 
 
 
