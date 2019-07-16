@@ -127,5 +127,6 @@ set baud 115200
 send file.extension
 ```
 
+On the mac, it's also necessary to use the option `set carrier-watch off`.
 
 

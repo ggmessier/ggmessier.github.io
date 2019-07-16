@@ -3,6 +3,9 @@ layout: default
 ---
 
 ## Awards
+- Confederation of Alberta Faculty Associations Distinguished Academic Award (2019)
+- Engineering Students' Society Teaching Excellence Award (2019)
+- Schulich School of Engineering Teaching Achievement Award (2018-2019)
 - Schulich School of Engineering Teaching Achievement Award (2017-2018)
 - Schulich School of Engineering Teaching Achievement Award (2016-2017)
 - Schulich School of Engineering Research Achievement Award (2016-2017)
