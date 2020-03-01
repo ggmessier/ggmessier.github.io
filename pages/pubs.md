@@ -3,6 +3,7 @@ layout: default
 ---
 
 ### Journal Papers
+1. A. Sheldon, L. Belostotski, G. Messier and A. Madanayake, "Impact of Noise Bandwidth on Noise Figure," IEEE Transactions on Instrumentation and Measurement, vol. 68, no. 7, pp. 2662-2664, 2019.<br>
 1. M. Herrmann and G. G. Messier, “Cross-Layer Lifetime Optimization for Practical Industrial Wireless Networks: A Petroleum Refinery Case Study,” IEEE Transactions on Industrial Informatics, vol. 14, no. 8, pp. 3559–3566, 2018.<br>
 1. K. Dorling, J. Heinrichs, G. G. Messier, and S. Magierowski, “Vehicle Routing Problems for Drone Delivery,” IEEE Transactions on Systems, Man and Cybernetics, vol. 47, no. 1, pp. 70–85, 2017.<br>
 1. Indrakshi Dey, Geoffrey G Messier, and Sebastian Magierowski, “Average error rates and achievable capacity in large office indoor wireless environments,” IEEE Transactions on Communications, vol. 65, no. 11, pp. 4955–4965, 2017.<br>

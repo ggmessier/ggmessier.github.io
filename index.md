@@ -17,7 +17,7 @@ Office: Room 308, Information and Communication Technology (ICT) Building<br>
 
 ## Research
 
-* [Open Positions & Research Program Details for Prospective Graduate Students](pages/research-program)
+* [Research Program Details for Prospective Graduate Students](pages/research-program)
 * [Publications](pages/pubs)
 
 ## Teaching
@@ -35,6 +35,8 @@ You can also view a list of the classes I've taught in the past [here](pages/tea
 
 ## Projects
 
-* [ISA100.11a ns3 Network Simulator](pages/isa100)
 * [Data Analytics](pages/data)
+
+## Diversions
+
 * [Robot Frogs](pages/frogs)

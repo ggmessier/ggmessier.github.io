@@ -1,32 +1,24 @@
 ---
 layout: default
 ---
-The first goal of my research program is to remove the barriers for using wireless networks in industrial facilities.  The second goal is to provide an environment where research students are able to develop their academic, technical and professional skills.
+### Research Program
+
+My research involves using data science to improve the services provided to people living with homelessness.  By working in partnership with organizations in the Calgary homelessness serving sector, my research team is able to help address some of the most pressing problems facing this very vulnerable group.  Our goal is to provide practical data-based tools and solutions that support and enhance the work being done by housing programs and emergency shelters.  This ranges from developing algorithms that spot shelter clients in need of assistance to creating data visualization tools for use by front-line shelter and housing staff.
+
+Data science and machine learning can be used in a variety of ways and it is important to emphasize that we are not developing algorithms that automate decision making within the housing and shelter systems.  Instead, we are working on solutions that support the work being done by human housing and social support experts.  Our aim is to help these experts work as effectively as possible with individuals living with homelessness by providing them with the information and tools they need.
 
 
-### Technical Research Program
 
-My research area is the design of digital communications networks for industrial applications.  This work involves:
- + Wired and wireless network protocol design and optimization.
- + The exploration of cyber-physical systems and how network behavior affects the quality of services using that network.
- + The application of machine learning techniques to real world industrial data in order to determine how network design needs to evolve to accomodate changes in network application traffic and utilization.
-
-### Open Positions
-
-I am currently interviewing candidates for a funded PhD position in my research group.  The start date for this position is September 2019.  This candidate will be conducting research on applying machine learning and data mining techniques to Alberta petroleum production data and then utilizing the results to design the best network for monitoring and controlling that petroleum production.  A background in artifician intelligence, machine learning, network design and software development is an asset.
-
-If you are interested in applying for this position, please see the *Interested in joining us?* section below with details regarding how to proceed.
 
 ### Student Experience
-It is my goal to provide all of my research students with the opportunity to grow by developing their own innovative solutions to important research problems.  The structure of my program is intended not only to develop technical research skills but also communications, teamwork and hands-on experimental skills.
 
-I would like all of my research students to have a hands on experimental experience.  To support this activity, my research lab is equipped with state of the art software radio platforms and a full set of 2.4~GHz band wireless test equipment, including oscilloscopes, a network analyzer, a spectrum analyzer, signal sources and a logic analyzer. 
+Students working in my group will graduate with a technical background in data science, machine learning and statistics.  It is my goal to provide all of my research students with the opportunity to grow by developing their own innovative solutions to important research problems.  The structure of my program is intended not only to develop technical research skills but also communications, teamwork and hands-on software development skills.
 
-It is critical that any researcher is not only able to develop innovative ideas but to also communicate those ideas clearly and succinctly.  I run workshops with my research team to train them in effective presentation skills and written communication.  Presentation skills are refined through practice presentations within our group and external presentations at conferences and to industry sponsors. The effective writing training deals with establishing a message for a document and then using proper figure design and paragraph structure to ensure that message is clearly communicated to a busy reader.
+Members of my research group will also be interacting frequently with members of the Calgary homelessness serving sectors.  Through this interaction, we learn which problems to solve and what design constraints we must meet for our solutions to be adopted by housing and shelter staff.  This process teaches my students how to communicate their ideas to a wide range of people with very different technical backgrounds.  It also gives experience learning how to turn a research concept into a tool with real practical benefit.
 
-The majority of students with engineering graduate degrees find employment in industry where they must be able to work in teams in order to make a contribution.  My emphasis on experimentation means that each student must use the same software radio platform and lab test equipment to implement basic functionality in his/her experimental platform.
+It is critical that any researcher is not only able to develop innovative ideas but to also communicate those ideas clearly and succinctly.  I run workshops with my research team to train them in effective presentation skills and written communication.  Presentation skills are refined through practice presentations within our group and external presentations at conferences and to external partners. The effective writing training deals with establishing a message for a document and then using proper figure design and paragraph structure to ensure that message is clearly communicated to a busy reader.
 
-It is here where my students work in teams.  One area of collaboration is the software used to program basic software radio functionality.  Rather than requiring each student to develop this code from scratch, my lab has a code tree where multiple students make contributions, often in parallel.  To manage this code development, we utilize the same code development and revision control tools used in industry.  My lab also utilizes an online wiki documentation system for sharing information ranging from effective presentation tips to software radio architecture.
+The majority of students with engineering graduate degrees find employment in industry where they must be able to work in teams in order to make a contribution.  I encourage collaboration within my group to help develop these teamwork skills.  One area this occurs is related to the data analysis software we develop.  Rather than requiring each student to develop all code from scratch, my lab has a code tree where multiple students make contributions, often in parallel.  To manage this code development, we utilize the same code development and revision control tools used in industry.  Throught this work, my students also develop their own github source code respositories which they can then show to prospective employers in the software and data science industries.
 
 ### Interested in joining us?
 I am always interested in reviewing applications from well qualified students interesting in joining my research team.  If you are interested in applying to be a member of my group,  please include the following information in your email:
