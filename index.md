@@ -39,4 +39,5 @@ You can also view a list of the classes I've taught in the past [here](pages/tea
 
 ## Diversions
 
+* [3D Printing](pages/printing)
 * [Robot Frogs](pages/frogs)
