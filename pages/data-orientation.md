@@ -51,7 +51,8 @@ The second table is `Rosters` which contains the full names and positions of eac
 
 It is possible that you will be provided with a dataset for your research in the form of a flat file perhaps in comma seperated value (CSV) format or [hierarchical data format](https://en.wikipedia.org/wiki/Hierarchical_Data_Format).  However, this data will almost always originate from some kind of [relational database](https://en.wikipedia.org/wiki/Relational_database) that is maintained by the organization collecting the data.  You may have to work with these databases directly as part of your research and you will certainly work with them if you pursue a career in data science.
 
-The most popular way to interact with modern databases is using some variant of  [structured query language (SQL)](https://en.wikipedia.org/wiki/SQL).  The variant we work with in our group is [MySQL](https://www.mysql.com/), which is an open source variant of SQL maintained by Oracle.  While there are an uncountable number of MySQL references on the web, a good place to start is [this tutorial](https://downloads.mysql.com/docs/mysql-tutorial-excerpt-5.5-en.pdf).
+The most popular way to interact with modern databases is using some variant of  [structured query language (SQL)](https://en.wikipedia.org/wiki/SQL).  The variant we work with in our group is [MySQL](https://www.mysql.com/), which is an open source variant of SQL maintained by Oracle.  While there are an uncountable number of MySQL references on the web, a good place to start is [this tutorial](https://downloads.mysql.com/docs/mysql-tutorial-excerpt-5.7-en.pdf).
+
 
 ### SQL Server Setup & DBeaver
 
