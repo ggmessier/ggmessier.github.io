@@ -5,7 +5,17 @@ use_math: true
 ---
 # New Student Orientation
 
-This page will provide a series of exercises meant to bring new research students up to speed on some of the data tools I use in my research group.  While you will likely end up using different data for your research project, these pages utilize publically available baseball data downloaded from the amazing [Retrosheet](http://www.retrosheet.org) website. I used the Baseball on a Stick code to create my baseball database, as I describe [here](data-baseball). 
+This page will provide a series of exercises meant to bring new research students up to speed on some of the data tools I use in my research group.  While you will likely end up using different data for your research project, these pages utilize publically available baseball data downloaded from the amazing [Retrosheet](http://www.retrosheet.org) website. I used the Baseball on a Stick code to create my baseball database, as I describe [here](data-baseball).
+
+## How to Read this Orientation
+
+There is a *lot* of information on this page.  Do not try to learn absolutely everything at first.  Start by spending a day scanning these resources, spending a day becoming generally familiar with the content and then start working on the tasks set out in the Exercises sections.  These exercises are meant to focus you on the main skills you'll need to start your research.  You can then re-visit the resources on this page as you encounter specific problems that require a particular tool.
+
+
+## Your Operating System
+
+All of our development is performed using linux and I recommend using the [Ubuntu](https://ubuntu.com/) since it's widely used and there's lots of online support available.  We make heavy use of linux libraries and tools so you will not be able to use windows. 
+
 
 ## Github
 
@@ -62,9 +72,7 @@ While it is possible to interact with a MySQL server using a terminal program, a
 
 ### SQL Exercises
 
-- Using the information from Dr. Messier, create a connection to the MySQL server within DBeaver.
-- Open and browse the `Events` and `Rosters` tables.
-- Use SQL queries to do the following:
+Using the information from Dr. Messier, create a connection to the MySQL server within DBeaver and then open and browse the `Events` and `Rosters` tables.  Once you verify you can view the data in the tables, write a series of SQL queries to do the following:
 
 1. Determine how many games have been played in total during the season?
 1. Determine how many home games were played by the New York Yankees?
@@ -78,4 +86,60 @@ While it is possible to interact with a MySQL server using a terminal program, a
 To solve the last exercise, you'll need to use the regular expression functionality built into MySQL.  Regular expressions are a very powerful string parsing language that is available in a variety of programming languages (including python).  There are a vast number of regular expression tutorials on the web but a very good and comprehensive tutorial can be found [here](https://www.princeton.edu/~mlovett/reference/Regular-Expressions.pdf).  This document is quite long so here's a [more succinct summary](https://cs.lmu.edu/~ray/notes/regex/) that I've found helpful.  There's also a useful [online regex testing engine](https://regex101.com/) for experimenting with your own test strings as you learn the syntax.
 
 
+## Python
 
+We use SQL primarily for extracting data from databases.  The bulk of our data work is done using python.  If you need a general introduction to python, I like [The Quick Python Book](https://www.amazon.ca/Quick-Python-Book-Naomi-Ceder/dp/1617294039) which can be read for free through the University of Calgary library.
+
+
+### Pandas
+
+We make heavy use of the [Pandas](https://pandas.pydata.org/) python data analysis library.  The library is designed to efficiently store and manipulate data tables.  It provides much of the functionality available in SQL in terms of being able to join tables, perform operations by grouping data keys, etc.  Start with the [getting started](https://pandas.pydata.org/docs/getting_started/index.html) pandas documentation (in particular "10 minutes to pandas").  The [full users guide](https://pandas.pydata.org/docs/user_guide/index.html) is more useful as a reference when you encounter specific problems during your software development work.
+
+### Other Python Libraries
+
+In addition to pandas, we also make use of the [NumPy](https://numpy.org/) and [SciPy](https://www.scipy.org/) libraries.  It's not necessary to become proficient with these right away.  Just scan the introductory material and be aware of them as a resource for when you start your research work.
+
+### Jupyter Notebooks
+
+[Jupyter](https://jupyter.org/) notebooks are a mechanism for combining python code, plots and notes created using the [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) language.  Think of them as a very super-powered replacement for a log book that are very popular in the data science community.
+
+We do most of our exploratory development using notebooks and tend to transition to pure python code once we've got something ready for a library or need to transition to pure python for advanced debugging purposes.
+
+
+### Eclipse
+
+[Eclipse](https://www.eclipse.org/). is the multi-platform software development environment of choice for many programming languages.  You will require the [PyDev](https://www.pydev.org/) eclipse extension.  If you're working through this orientation for the first time, don't worry about installing eclipse right away.  It will come in handy mainly as you start to develop a considerable amount of code as part of your research work.
+
+
+### Streamlit
+
+An important part of working with data is being able to develop interactive tools that respond in real time to user input.  This allows us to adjusting a range of variables (using things like buttons, lookup menus and slider bars) to see how this affects algorithm behaviour and visualizations.  These tools are useful for testing and presenting results to a range of audiences.  We use the [Streamlit](https://www.streamlit.io/) library for this.
+
+
+### Visualization
+
+An important part of data analytics is plotting data, particularly when troubleshooting and testing algorithms.  We use a combination of libraries for this:
+
+- When making "quick and dirty" plots, the [built-in pandas visualization](https://pandas.pydata.org/docs/user_guide/visualization.html) capabilities are usually best.
+
+- The pandas visualization mostly makes use of the [matplotlib](https://matplotlib.org/) library.  It's useful to be familiar with matplotlib both to better understand pandas plotting and as a stand-alone resource for generating very specific plots.  In general, matplotlib is a good library for generating static plots with lots of formatting controls that are good for creating figures for publication.
+
+- A much more interactive visualization library is [Plotly](https://plotly.com/python/).   These plots tend to look great but the custom formatting options are a bit more limited than matplotlib.
+
+While matplotlib and plotly can both be used in any python program, matplotlib is generally suited for the more static plots we generate in jupyter notebooks and plotly is better suited to a more interactive streamlit application.
+
+### Python Exercises
+
+- Install jupyter notebooks and have a look at the `Pre-Process Retrosheet Data` notebook posted in the `baseball\notebooks` directory on github.  I wrote this notebook to convert the retrosheet data tables into the `Games` and `Rosters` tables you worked with in the SQL section.  You don't have to fully understand this code.  Just treat it as an example of what a notebook can look like.
+
+- Create a new notebook called `Orientation Exercises`.
+
+- In DBeaver, export the `Games` table in CSV format and read the table into your notebook.  Display the table to ensure the fields imported correctly.
+
+- Save the `Games` table in HDF format and delete the CSV file.  HDF format is a more compact and efficient format that you should use whenever you need to store intermediate results to disk.  Modify your notebook to read the `Games` table from the HDF file at the start of your notebook.
+
+
+
+<br>
+<br>
+  
