@@ -68,6 +68,8 @@ The most popular way to interact with modern databases is using some variant of 
 
 For practice, I have set up a MySQL server that contains baseball data for the 2018 season.  This server is for use by my research group only so contact me directly for information on how to connect to it.
 
+One of the pieces of information I will need is the IP address of your home computer.  To determine that, you can click [here](http://ipv4.whatismyv6.com).
+
 While it is possible to interact with a MySQL server using a terminal program, as described in the tutorial, it is more common to interact with a database using a database browser or studio tool.  The program we will use is the community edition of the multi-platform [DBeaver](https://dbeaver.io) tool.  Documentation for how to use DBeaver is found [here](https://github.com/dbeaver/dbeaver/wiki).  You can focus on the "General User Guide" sections only.
 
 ### SQL Exercises
