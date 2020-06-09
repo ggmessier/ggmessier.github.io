@@ -101,6 +101,8 @@ We make heavy use of the [Pandas](https://pandas.pydata.org/) python data analys
 
 In addition to pandas, we also make use of the [NumPy](https://numpy.org/) and [SciPy](https://www.scipy.org/) libraries.  It's not necessary to become proficient with these right away.  Just scan the introductory material and be aware of them as a resource for when you start your research work.
 
+I do also sometimes make us of the [scikit learn](https://scikit-learn.org) machine learning library.  Often, we will write machine learn coding from scratch but libraries are nice when we don't want to re-invent the wheel for simple operations and/or need some verified code to use as a comparison baseline.
+
 ### Jupyter Notebooks
 
 [Jupyter](https://jupyter.org/) notebooks are a mechanism for combining python code, plots and notes created using the [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) language.  Think of them as a very super-powered replacement for a log book that are very popular in the data science community.

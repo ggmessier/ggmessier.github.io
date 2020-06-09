@@ -57,7 +57,11 @@ It should be noted that many machine learning algorithms have specialized algori
 
 #### Linear Regression
 
-The `Games Played Linear Regression` notebook in the `baseball\notebooks` folder demonstrates the use of linear regression to predict the number of games played in a season by a major league basball player.  Coefficients are calculated directly from the least squares solution and the z-score statistical significance test is applied to the coefficient values.  Randomized hold-out cross-validation is used to calculate training and generalization error.
+The `Games Played Linear Regression` notebook in the `baseball\notebooks` folder demonstrates the use of linear regression to predict the number of games played in a season by a major league basball player.  Coefficients are calculated directly from the least squares solution and the z-score statistical significance test is applied to the coefficient values.  Randomized hold-out cross-validation is used to calculate training and generalization error.  The sci-kit learn library is also used as a baseline and to illustrate how regularization techniques can be used to simplify the linear regression model.
+
+#### Logistic Regression
+
+The `Games Played Logistic Regression` notebook in `baseball\notebooks` demonstrates how to use the scikit-learn libraries to perform binary classification on two different data sets.  Regularization is explored and the different metrics used to evaluate the performance of a binary classification algorithm are introduced.
 
 
 
