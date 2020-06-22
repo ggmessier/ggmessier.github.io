@@ -1,9 +1,9 @@
 ---
 layout: project
-repository_url: https://github.com/ggmessier/frogs
+repository_url: https://github.com/ggmessier/frogs/tree/master/sw
 use_math: true
 ---
-# PIC Robot FrogBrain Software
+# PIC Software
 
 
 ## Development Environment

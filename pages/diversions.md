@@ -9,6 +9,6 @@ It's defintely fair to say that I got into electrical engineering mainly because
 
 
 * [3D Printing](printing)
-* [Robot Frogs](frogs)
+* [Circuit & Embedded Design](circuits)
 * [Beaglebone Black](bbb)
-
+* [Web Based GUI](gui)

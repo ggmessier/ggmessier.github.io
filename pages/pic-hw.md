@@ -1,9 +1,9 @@
 ---
 layout: project
-repository_url: https://github.com/ggmessier/frogs/boards/FrogBrain
+repository_url: https://github.com/ggmessier/frogs/tree/master/boards/FrogBrain
 use_math: true
 ---
-# PIC Robot FrogBrain  Hardware
+# PIC Hardware
 
 Let's start with the PIC16F1778 since it comes in a 28 pin SOIC package which is a compromise between being easy to solder and having the most pins.  
 
@@ -33,8 +33,6 @@ The brain will have an Adesto [AT25SF321](https://www.adestotech.com/wp-content/
 - The max SPI clock frequency is $f_{osc}/4$ = 8~MHz, assuming the 32~MHz internal oscillator.
 - The Read Array command allows data bytes to be read one after the other for a maximum read rate of 8~MHz/8~bits/byte = 1Mbyte/sec.
 - The slowest read rate would occur assuming a separate Read Array command was issued for each byte.  This introduces 4 bytes of command/address overhead which results in a read rate of 8~MHz/40~bits/read = 200~kbyte/sec.  This is still easily fast enough for audio applications.
-
-
 
 
 ## Daughtercard Interface
