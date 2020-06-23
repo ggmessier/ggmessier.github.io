@@ -25,4 +25,21 @@ For my ENEL 573 class, I use the [GNS3](https://gns3.com) network simulation sof
 
 GNS3 is designed to run a variety of operating systems within a variety of virtual machine engines.  I like QEMU and linux since both are open source and free for students.  Also, working in a linux terminal interface is a good learning experience since many network devices run *nix style operating systems.
 
-To use linux in GNS3 it's necessary to create a QEMU compatible linux image that can be loaded with different linux packages and the custom programs/files that I use for teaching. 
+To use linux in GNS3 it's necessary to create a QEMU compatible linux image that can be loaded with different linux packages and the custom programs/files that I use for teaching.  Instructions for doing this can be found [here](https://wiki.debian.org/QEMU).
+
+Due to its relatively small size, I use the  [Alpine Linux standard ISO](https://alpinelinux.org/downloads/) (x86_64 architecture).  The network tools are fine out of the box but I also want to compile and run my own network code on the images so I needed to install the C compiler with the commands
+
+```
+apk add gcc
+apk add libc-dev
+```
+
+Source files can be developed on the host machine and transferred to the QEMU image by runing sftp on the guest VM (ie. `sftp gmessier@10.0.2.2`).  You can determine the address of the host by running `iproute` and using the default router address.
+
+
+Post-installation, the image is almost 1G so I compress it to make it a little easier for students to download.  The command for doing this:
+
+```
+qemu-img convert -c -O qcow2 alpine-std.qcow alphine-std-cmp.qcow
+```
+
