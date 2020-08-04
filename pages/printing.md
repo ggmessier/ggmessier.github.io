@@ -18,10 +18,12 @@ use_math: true
 
 
 ### Printing
-1. Once you've created your design in FreeCAD, select the Body in the tree view that represents the entire part.
+1. Once you've created your design in FreeCAD, select all the items that make up the shape you'd like to print.  This can be multiple Body objects as well as wireframe STL shapes that have been imported for modification.
 1. Using the `File` pulldown menu, select `Export..` as an STL file.
 1. Import the STL file into the slicer program.  Adjust the desired print resolution and fill settings.
 1. Export from the slicer as a GCODE file and copy that file to the printer's SD card.
+
+When printing overhangs, select `Everywhere` from the `Supports` pulldown menu.  Some shapes can print ok without supports but others really need them.  The default support angle is 55 degrees but it seems like I can go as low as 25-30 degrees (went as low as 22.5 degrees with 0.35mm resolution on one print) and it will print ok.
 
 
 
