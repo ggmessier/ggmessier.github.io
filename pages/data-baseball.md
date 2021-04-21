@@ -2,23 +2,46 @@
 layout: default
 use_math: true
 ---
+# Baseball!
 
-# Baseball Data
-
-It's nice to have a dataset to practice machine learning techniques and the baseball community provides a *huge* amount of data on major league baseball (MLB) games.  In particular, a group of very committed volunteers maintains the [Retrosheet](http://retrosheet.org) project where the outcome of every at-bat in every MLB game going back to 1921!  In addition to Retrosheet, there is even more data that can be downloaded directly from the MLB servers.  In particular, MLB provides access to the pitchf/x system data that contains detailed information on every pitch thrown in the MLB since 2008 (speed, ball rotation, movement, pitch type, etc.).
-
-While the Retrosheet data is more than sufficient for testing whatever machine learning algorithm you're interested in, a good overview of all the data available for download can be found  on the [SABR website](https://sabr.org/sabermetrics/data).
-
-## Baseball on a Stick (BBOS)
-
-**NOTE:** I ran all this code a few years ago now so some of this information may be dated.
+The individuals in our shared dataset are actually baseball players.  The game of baseball and statistics go hand in hand and the excellent [Retrosheet](https://www.retrosheet.org/) website has the sequence of events that have occurred for every at-bat in every major league baseball game dating all the way back to 1916!  This is obviously a wonderful and very rich public domain dataset for playing around with data analytics.
 
 
-While it is possible to download the play-by-play event files for games directly from Retrosheet [here](https://www.retrosheet.org/game.htm), you would spend a fair bit of time loading them into a MySQL database.  The [BBOS](https://sourceforge.net/projects/baseballonastic/) program does this work for you and delivers a MySQL database populated with any year of Retrosheet data you'd like.  This software downloads both pitchf/x data and retrosheet data.
+## Introduction to the Game
 
-For Linux/Mac people, this package only works on Windows.  My work-around was to run BBOS in a windows virtual machine on my Mac and have it populate a MySQL database running on OSX.  Also, there's a bug in the package that prevents it from working with MySQL 5.7 but the fix is discussed in [this post](https://sourceforge.net/p/baseballonastic/discussion/820145/thread/0f201970/?limit=25#f99d).
+If you're not familiar with baseball, here are some of the many resources that describe the basics of the game:
+- [Wiki-How Baseball Tutorial](https://www.wikihow.com/Play-Baseball)
+- [Quick Baseball Guide](https://www.tutorialspoint.com/baseball/baseball_quick_guide.htm)
+- [The Rules of Baseball - EXPLAINED! (Video)](https://www.youtube.com/watch?v=skOsApsF0jQ)
+- [Baseball Explained in 5 Minutes (Video)](https://www.youtube.com/watch?v=I8VGW0C_GO4)
 
-Once you've populated your Retrosheet database, the table with all the play-by-play data is ``events``.  The table that links player ID's to their names and positions is ``rosters``.
 
-At this point, you will be working with a combination of SQL queries and a python program to consolidate the data.  The SQL queries will give you a single entry per at-bat in every game and your python program will use this data to populate an offensive timeline for each unique player.  At this point, you will be getting much of your information from the ``event_tx`` field which corresponds to the retrosheet [event field](https://www.retrosheet.org/eventfile.htm).  Using regular expressions is super handy for decyphering these event strings.
+## Fantasy Baseball
 
+Many of our applications involve using data science to detect individuals with unusual or exceptional characteristics.  There are actually a large number of baseball players that move through the major leagues every year.  Some play for a long time and some only for a very short time.  While they are all very gifted athletes, there are still a smaller group that stand out as "exceptional".
+
+To indentify these individuals, we use fantasy baseball scoring metrics to identify a sub-population of players that have a significant positive impact on their teams.  We then use various data features to predict which players will fall into that population.
+
+Due to its popularity, we base our analysis on [Yahoo Sports](https://baseball.fantasysports.yahoo.com) fantasy baseball platform.  The offensive impact of a batter is evaluated by assigning points as follows:
+- Singles (1B): 2.6
+- Doubles (2B): 5.2
+- Triples (3B): 7.8
+- Home Runs (HR): 10.4
+- Runs (R): 1.9
+- Runs Batted In (RBI): 1.9
+- Bases on Balls (BB): 2.6
+- Stolen Bases (SB): 4.2
+- Hit by Pitch (HBP): 2.6
+
+
+## Data Transformation
+
+To disguise Retrosheet data as health and emergency service patient data, we use the following mapping:
+
+- **Adverse Outcome:** When a player's Yahoo fantasty baseball points score crosses the threshold of the top 10% of players.
+- **Major Event:** Hitting a home run.  This is positively correlated with an "Adverse Outcome" since players with high fantasy baseball scores hit a lot of home runs.
+- **Stay:** Being on the starting player roster for a game.  This is also positively correlated with an "Adverse Outcome" since players that play a lot accumulate a lot of points.  However, it's not quite as good as hitting a home run.
+- *Referral:** Being drafted, traded or a free agent.  This is negatively correlated with an "Adverse Outcome" since less skilled players tend to be traded more than star players.  These events can also signal a player who is reaching the end of their career.
+
+<br>
+<br>
