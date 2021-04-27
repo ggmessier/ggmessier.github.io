@@ -8,6 +8,10 @@ use_math: true
 
 The purpose of this section is to give students who are brand new to our group something to look at to get up to speed.  Here, I'm trying to strike a balance between giving you the fundamentals that everyone should know and not spending too much time exploring techniques that you might not use in your specific project.
 
+- **Homelessness:**
+  + Much of my research is aimed at using data science to help improve the supports provided for individuals experiencing homelessness.
+  + [Nick Falvo](https://nickfalvo.ca) is a very prominent researcher in the public policy space with a focus on homelessness and housing.  His [orientation course](https://nickfalvo.ca/courses/) is an excellent overview of the trends in homelessness and the programs for addresssing it.  He also posts a ton of content on Twitter and is very [worth following](https://twitter.com/nicholas_falvo).
+
 - **Probability Lectures:**
   + It's impossible to understand how machine algorithms work without a background with probability and statistics.
   + The lectures for my probability grad course are on [YouTube](https://youtube.com/playlist?list=PL7sWxFnBVJLUbrCHertPLEqqCyLVnG-tN).  Lectures 1-4 are basically undergrad material but good to review.  The multi-variate material in Module 6 and 7 is important to cover.  The rest of the lectures aren't important.
