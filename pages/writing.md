@@ -33,6 +33,8 @@ Sometimes students wonder whether they should use a figure or a table to present
 
 The IEEE requires the captions of your figures to be written in sentence capitalization and punctuation.  For example, you would write "A comparison of the FIFO and LRU caching algorithms." rather than "A Comparison of the FIFO and LRU Caching Algorithms".  In general, your captions should be short, one sentence descriptions of the figures.  They should not contain multiple sentences or attempt to explain what is going on in the figure in detail.  That's what the discussion in your text is for.
 
+When importing a figure into your document *always* use EPS format.  Postscript is a vectorized file format that is rendered by the document reader.  This results in smaller files and smoother figures than bitmap based files (jpeg, png, etc.). 
+
 ### Step 3: Write the Opening Sentence for Your Paragraphs
 Proper use of paragraphs is a **huge** part of effective writing for a busy reader.  When used properly, good paragraph structure allows a reader to skim through a full journal paper in just a few minutes and take away all the key points of that paper's message.  The golden rules for using proper paragraph structure are:
 
