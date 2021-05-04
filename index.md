@@ -17,20 +17,21 @@ Office: Room 308, Information and Communication Technology (ICT) Building<br>
 
 ## Research
 
-* [Research Program Details for Prospective Graduate Students](pages/research-program)
+My research involves using data science to improve the services provided to people experiencing homelessness, mental health disorders and addiction.  This ranges from developing algorithms to help spot folks who need help to creating data visualization tools for staff working directly with vulnerable groups.
+
+We work in cross-disciplinary teams that include researchers and clinicians from psychiatry, medicine and social work.  We are also proud to collaborate with some of the amazing community agencies that provide support to this very vulnerable group.  These agencies include [The Calgary Drop-In Centre](https://calgarydropin.ca/), the [Calgary Homeless Foundation](https://www.calgaryhomeless.com/) and [Trellis](https://www.growwithtrellis.ca/).
+
+Data science and machine learning can be used in a variety of ways and it is important to emphasize that we are not developing algorithms that automate support and/or treatment decisions.  Instead, our goal is to develop tools that provide information to support the human staff doing front line work with vulnerable individuals.
+
 * [Publications](pages/pubs)
-* [Data Analytics](pages/data)
+* [Data Science Resources](pages/data)
+* [Information for Prospective Graduate Students](pages/prospective-students)
+* [Information for Current Graduate Students](pages/current-students)
 
 ## Teaching
 
 I enjoy using a variety of teaching methods including the "flipped classroom" approach where my lectures are on video and we use class time for discussion and problem solving.  You can view the video lectures for my graduate courses on digital communications, wireless communications and probability on my [YouTube Channel](https://www.youtube.com/channel/UC9lbQ5Kkad4yI338WcdQ1SQ).
 
 You can also view a list of the classes I've taught in the past and see a few assorted notes regarding project and labs [here](pages/teaching).
-
-## Useful Information for Graduate Students
-
-* [Technical Writing Tips](pages/writing)
-* [How to Do a Literature Search](pages/litsearch)
-* [How to Land an Industry Job](pages/jobsearch)
 
 
