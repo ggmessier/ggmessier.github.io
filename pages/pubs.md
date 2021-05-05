@@ -1,6 +1,26 @@
 ---
 layout: default
 ---
+# Publications
+
+## Data Science
+
+The following list of publications includes links to preprint versions of each paper and the source code used to generate results.  The source code is distributed under the  [GNU General Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+**Note:** Many of these papers will utilize sensitive datasets that are controlled using university ethics board approved security and privacy protocols.  As a result, the datasets used by the posted source code are often not posted.  This means that you can inspect our code to gain insights into our methods but you will not be able to run it to reproduce results.
+
+### Journal Papers
+1. G. G. Messier, L. Tutty and C. John, "The Best Thresholds for Rapid Identification of Episodic and Chronic Homeless Shelter Use", Accepted to the International Journal on Homelessness, 2020.
+
+### Presentations
+1. G. G. Messier, "Designing Data Tools for Emergency Shelter Staff", Presentation to Data for Good Calgary Chapter, June, 2019. [(Slides)](../pdfs/GMessier - Data Tools for Emergency Shelter Staff - June 2019.pdf)
+
+
+
+## Communications Networks
+
+
+
 
 ### Journal Papers
 1. A. Sheldon, L. Belostotski, G. Messier and A. Madanayake, "Impact of Noise Bandwidth on Noise Figure," IEEE Transactions on Instrumentation and Measurement, vol. 68, no. 7, pp. 2662-2664, 2019.<br>

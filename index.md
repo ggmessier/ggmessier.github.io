@@ -5,7 +5,7 @@
 layout: default
 ---
 
-I'm a Professor of Electrical and Computer Engineering in the Schulich School of Engineering at the University of Calgary, Canada.  This site describes my research and teaching at the university as well as any other fun [side projects](pages/diversions) I'm interested in.  You can check out a bit more on my background [here](pages/background).  
+I'm a Professor in [Electrical and Software Engineering](https://schulich.ucalgary.ca/electrical-software) in the [Schulich School of Engineering](https://schulich.ucalgary.ca/) at the [University of Calgary](https://ucalgary.ca/), Canada.  This site describes my research and teaching at the university as well as any other fun [side projects](pages/diversions) I'm interested in.  You can check out a bit more on my background [here](pages/background).  
 
 **University Contact Information:**<br>
 2500 University Drive N.W.<br>
@@ -30,7 +30,13 @@ Data science and machine learning can be used in a variety of ways and it is imp
 
 ## Teaching
 
-I enjoy using a variety of teaching methods including the "flipped classroom" approach where my lectures are on video and we use class time for discussion and problem solving.  You can view the video lectures for my graduate courses on digital communications, wireless communications and probability on my [YouTube Channel](https://www.youtube.com/channel/UC9lbQ5Kkad4yI338WcdQ1SQ).
+On my [YouTube Channel](https://www.youtube.com/channel/UC9lbQ5Kkad4yI338WcdQ1SQ), you can view my lectures on:
+
+- [Computer Networks](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXZdk6_kPjcfOJBT-H1VSG1) (4th year undergraduate course)
+- [Electronics](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXhKW6052SWuuVmHJtqjzWf) (2nd year undergraduate course)
+- [Probability and Stochastic Processes](https://www.youtube.com/playlist?list=PL7sWxFnBVJLUbrCHertPLEqqCyLVnG-tN) (graduate course)
+- [Wireless Communications](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXsvsLzMXT2Fk4ZPD7BJTBX) (graduate course)
+- [Digital Communications](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXpEiNn2IqD5sCHws4UG_sS) (graduate course)
 
 You can also view a list of the classes I've taught in the past and see a few assorted notes regarding project and labs [here](pages/teaching).
 
