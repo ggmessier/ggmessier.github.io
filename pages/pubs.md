@@ -10,10 +10,12 @@ The following list of publications includes links to preprint versions of each p
 **Note:** Many of these papers will utilize sensitive datasets that are controlled using university ethics board approved security and privacy protocols.  As a result, the datasets used by the posted source code are often not posted.  This means that you can inspect our code to gain insights into our methods but you will not be able to run it to reproduce results.
 
 ### Journal Papers
-1. G. G. Messier, L. Tutty and C. John, "The Best Thresholds for Rapid Identification of Episodic and Chronic Homeless Shelter Use", Submitted to the International Journal on Homelessness, January, 2021. [(arXiv preprint PDF)](https://arxiv.org/abs/2105.01042), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/RAPID%20Tests)
+1. G. G. Messier, L. Tutty and C. John, "The Best Thresholds for Rapid Identification of Episodic and Chronic Homeless Shelter Use", Accepted to the International Journal on Homelessness, May, 2021. [(arXiv preprint PDF)](https://arxiv.org/abs/2105.01042), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/RAPID%20Tests)
 
 ### Presentations
 1. G. G. Messier, "Designing Data Tools for Emergency Shelter Staff", Presentation to Data for Good Calgary Chapter, June, 2019. [(Slides)](../pdfs/GMessier - Data Tools for Emergency Shelter Staff - June 2019.pdf)
+
+
 
 
 
