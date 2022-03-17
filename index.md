@@ -32,6 +32,7 @@ Data science and machine learning can be used in a variety of ways and it is imp
 
 On my [YouTube Channel](https://www.youtube.com/channel/UC9lbQ5Kkad4yI338WcdQ1SQ), you can view my lectures on:
 
+- [Computer Architecture](https://youtube.com/playlist?list=PL7sWxFnBVJLV47Lrq9D-gfFh-mGv2CLCt) (2nd year undergraduate course)
 - [Computer Networks](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXZdk6_kPjcfOJBT-H1VSG1) (4th year undergraduate course)
 - [Electronics](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXhKW6052SWuuVmHJtqjzWf) (2nd year undergraduate course)
 - [Probability and Stochastic Processes](https://www.youtube.com/playlist?list=PL7sWxFnBVJLUbrCHertPLEqqCyLVnG-tN) (graduate course)
