@@ -23,3 +23,10 @@ CLK_RTSN (input): SPI clock.
 NRST (input): Active low reset signal.
 BUSY (ouput): Transceiver busy indicator.
 ```
+
+## SPI Hello World
+
+
+
+
+

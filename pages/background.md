@@ -3,6 +3,7 @@ layout: default
 ---
 
 ## Awards
+- University of Calgary Teaching Award for Team Teaching (2021)
 - Schulich School of Engineering Department Teaching Award (2019)
 - Schulich School of Engineering Teaching Innovation Award (2019)
 - Confederation of Alberta Faculty Associations Distinguished Academic Award (2019)

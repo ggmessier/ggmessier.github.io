@@ -11,7 +11,7 @@ Becoming aware of the work and people in your research area is one of the most i
 1. **It helps you learn.** No one person can think of everything.  By reading the important papers in your area and following the important groups and conferences, you'll be exposed to all kinds of new and exciting ideas that you can apply to your own work.
 
 ## Objectives of a Good Literature Search
-With the convenience of online search tools like IEEE Xplore, a literature search seems deceptively easy.   It seems like you just need to type in a few keywords, read through the papers that come up and then reference a few of them.  While online search tools are extremely important, you must always remember that a good literature search should allow you to answer the following questions:  
+With the convenience of online search tools like IEEE Xplore, Google Scholar and the ACM Digital Library, a literature search seems deceptively easy.   It seems like you just need to type in a few keywords, read through the papers that come up and then reference a few of them.  While online search tools are extremely important, you must always remember that a good literature search should allow you to answer the following questions:  
 
 1. What are the key, foundational papers that really started off the research in your area? 
 1. What are the latest and most important developments in your area?
@@ -27,13 +27,15 @@ To illustrate how these phases work, the following sections will present a case 
 
 #### Step 1: Finding the right keywords.
 
-So, you've just started your research project and you've established your general area with your supervisor.  Now it's time to do your first online search.  The first step is to select the database you should use.  A fact of life for electrical engineers is that all the best research is published through the IEEE so doing an [IEEE Xplore](http://ieeexplore.ieee.org.ezproxy.lib.ucalgary.ca/search/cmdsearch.jsp) search is a must.  If you are doing network related research, you should also do a search on the [ACM Digital Library](http://portal.acm.org.ezproxy.lib.ucalgary.ca/dl.cfm).
+So, you've just started your research project and you've established your general area with your supervisor.  Now it's time to do your first online search.  The first step is to select the database you should use.  A fact of life for electrical engineers is that all the best research is published through the IEEE so doing an [IEEE Xplore](http://ieeexplore.ieee.org.ezproxy.lib.ucalgary.ca/search/cmdsearch.jsp) search is a must.  If you are doing network or machine learning related research, you should also do a search on the [ACM Digital Library](http://portal.acm.org.ezproxy.lib.ucalgary.ca/dl.cfm) and [Google Scholar](https://scholar.google.com/).
 
 The biggest danger of doing an online search is that you miss the important papers in your area.  This happens when you perform a search that is too specific.  A rule of thumb is that if you don't get at least 150 papers coming out of your search, then you need to generalize your search words.
 
-For example, Kevin could type in the search ("aerial wireless sensor deployment") into IEEE Xplore.  This yields no papers.  Is Kevin the only person in the world thinking about aerial deployment of sensors?  Obviously not.  The search was to constrictive.  He then types in the following search (wireless AND sensor AND (aerial OR airplane OR helicopter OR UAV OR flight)).  This yields 237 hits which is a good number.
+For example, Kevin could type in the search ("aerial wireless sensor deployment") into IEEE Xplore.  This yields no papers.  Is Kevin the only person in the world thinking about aerial deployment of sensors?  Obviously not.  The search was too restrictive.  He then types in the following search (wireless AND sensor AND (aerial OR airplane OR helicopter OR UAV OR flight)).  This yields 237 hits which is a good number.
 
 The ACM Digital Library search engine is a bit more restrictive.  However, an AND search for the terms "wireless", "sensor" and "aerial" produced 125 hits after isolating for only ACM publications and proceedings.
+
+Some search engines, like Google Scholar, will give you an essentially unlimited list of papers to look at.  In these cases, you can look through the first 300 or so.
 
 #### Step 2: Sorting through the big list.
 

@@ -61,7 +61,7 @@ Once things are all set up, here's a summary of the steps to create a new projec
 
 1. Right click on the project and run Build Project.  It should work straight away.
 
-1. In project properties, select Build Steps in C/C++ Build, Settings and enter the following command to copy the executable over to the BBB once it's compiled: `scp <ExecutableName> <BbbUsername>@<BbbIpAddress>:<BbbHomeDir>/<BbbExecutableName>`.
+1. In project properties, select Build Steps in C/C++ Build, Settings and enter the following command into Post-build steps, Command to copy the executable over to the BBB once it's compiled: `scp <ExecutableName> <BbbUsername>@<BbbIpAddress>:<BbbHomeDir>/<BbbExecutableName>`.
 
 1. Confirm that `gdbserver` and `gdb-multiarch` are installed on the BBB and your PC, respectively.
 
@@ -86,10 +86,17 @@ Once things are all set up, here's a summary of the steps to create a new projec
   - [Device tree user guide](https://elinux.org/Device_Tree_Usage) 
   - [Device tree reference](https://elinux.org/Device_Tree_Reference)
   - [Raspberry PI overlay page](https://www.raspberrypi.org/documentation/configuration/device-tree.md)
-- When working with GPIO, you still need to configure the direction of the pins and other parameters via the linux OS files in `/sys/class/gpio` as described in Molloy's Chapter 6.  Even setting pin values is performed by writing 1's and 0's to these files from within your C/C++ application.
+- Handy `config-pin` options:
+```
+config-pin -l : Lists all valid modes for the pin.
+config-pin -i : Provides more detaild information about the pin.
+config-pin -q : Queries the pin's current configuration.
+```
+- The `config-pin` commands can be placed in a script to configure the bbb after it boots.
 
 ### GPIO
 
+- When working with GPIO, you still need to configure the direction of the pins and other parameters via the linux OS files in `/sys/class/gpio` as described in Molloy's Chapter 6.  Even setting pin values is performed by writing 1's and 0's to these files from within your C/C++ application.
 - The pins available for GPIO by default are listed as "ocp" pins in `/sys/devices/platform/ocp`.  
 - GPIO pins are divided into four groups of 32 pins, each corresponding to a GPIO "chip".  The kernel ID number is (<chip number>*32+offset).  For example, P9.30 is listed as `gpio3[16]` which means it's associated with the fourth chip.  The kernel ID number for this pin is (3*32+16)=112.
 - `config-pin` can configure the pin as `gpio` (no internal resistor), `gpio_pu` (pull-up resistor) and `gpio_pd` (pull-down resistor).
@@ -145,6 +152,16 @@ P9-24, GPIO_15 (in)     BUSY (out)      SX1280 transceiver busy.
 ```
 + The SX1280 uses CPOL=0 and CPHA=0 (Mode 0).
 
++ The BBB pins are configured as:
+```
+config-pin p9.17 spi_cs
+config-pin p9.21 spi
+config-pin p9.18 spi
+config-pin p9.22 spi_sclk
+config-pin p9.23 gpio
+config-pin p9.24 gpio_pu
+```
+The NRST SX1280 input provides its own internal pull-up.
 
 
 
