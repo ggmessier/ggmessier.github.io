@@ -45,6 +45,9 @@ Always try to use [tqdm](https://tqdm.github.io/) progress bars.  This will allo
 When working with python (or any scripted language), execution speed is greatly influenced by whether you're using built in library functions.  Loops can literally be made almost 100,000 times faster based on the coding choices you make.  An example is [provided here](https://towardsdatascience.com/how-to-make-your-pandas-loop-71-803-times-faster-805030df4f06) but this isn't the only strategy.  You may need to employ different strategies depending on your specific problem.  In almost all cases, a quick google will yield a discussion of how to improve your speed.
 
 
+### Am I saving my intermediate results?
+
+A lot of tasks that generate intermediate results (ie. pre-processing of a data table) only need to be done once and can then be saved to disk.  A very useful caching utility developed by our group can be found [here](https://github.com/ggmessier/data-analytics/blob/master/demo/Caching%20Intermediate%20Results.ipynb).
 
 
 
