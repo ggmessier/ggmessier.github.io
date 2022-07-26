@@ -23,17 +23,26 @@ For example, you might decide that you want to tell the reader about your measur
 
 Once you've decided on your primary section headings, think about whether the discussion in each section needs to be divided into subsections.  This takes a bit of practice but the rule of thumb is to try and separate distinct ideas or discussion topics.  For example, your "Propagation Model Derivation" discussion might include a description of the actual equipment and a discussion of your calibration procedure.  Those two topics should go into different subsections.  Another rule of thumb is that a single section should usually not be longer than a double column page or smaller than two paragraphs.
 
-### Step 2: Create Your Figures and Tables
+### Step 2: Create Figure Sketches and Dummy Tables
+
 The figures and tables you use to present your results are a critical part of your message.  You need to give these a lot of thought and create them before you even start writing.  Try to imagine yourself presenting or explaining your work to a colleague.  What figures, diagrams and/or tables would you want to really show why your work is interesting and important?
+
+Using a simulation to generate a figure or table can take a long time.  Before investing that time, you need to be sure you need the figure/table in the first place.  So, for this step you need to either draw (by hand or with a drawing package) the figures you'd like to include in your table and/or create the tables you'd like to include and fill the table with dummy data.
+
+A few points about this:
+
+- Be sure to label the axes of your figures, create a legend if you plan on showing multiple curves and do your best to predict what the curves are going to look like.  This helps you anticipate the results of your simulations and can aid in debugging if they're not what you expect.
+
+- The dummy table should contain values that represent your best estimates of what the actual results would be.  Don't just fill these tables with nonsense values.
+
 
 Sometimes students wonder whether they should use a figure or a table to present data.  Here are a few things to think about when making your decision:
 - If you have a large number of data points, figures are almost always the way to go.  Tables get hard to look at when they have more than 10 rows or columns.
 - Figures do a much better job of showing trends.
 - Tables are better when the specific value of the data is important and you want to compare two specific data points together (ie. It's important to discuss how a simulated value of 2.42 compares to a second simulation yielding a value of 10.19).
 
-The IEEE requires the captions of your figures to be written in sentence capitalization and punctuation.  For example, you would write "A comparison of the FIFO and LRU caching algorithms." rather than "A Comparison of the FIFO and LRU Caching Algorithms".  In general, your captions should be short, one sentence descriptions of the figures.  They should not contain multiple sentences or attempt to explain what is going on in the figure in detail.  That's what the discussion in your text is for.
+Your dummy figures and tables should have complete captions.  The IEEE requires the captions of your figures to be written in sentence capitalization and punctuation.  For example, you would write "A comparison of the FIFO and LRU caching algorithms." rather than "A Comparison of the FIFO and LRU Caching Algorithms".  In general, your captions should be short, one sentence descriptions of the figures.  They should not contain multiple sentences or attempt to explain what is going on in the figure in detail.  That's what the discussion in your text is for.
 
-When importing a figure into your document *always* use EPS format.  Postscript is a vectorized file format that is rendered by the document reader.  This results in smaller files and smoother figures than bitmap based files (jpeg, png, etc.). 
 
 ### Step 3: Write the Opening Sentence for Your Paragraphs
 Proper use of paragraphs is a **huge** part of effective writing for a busy reader.  When used properly, good paragraph structure allows a reader to skim through a full journal paper in just a few minutes and take away all the key points of that paper's message.  The golden rules for using proper paragraph structure are:
@@ -68,7 +77,16 @@ Without question, the vast majority of the time I spend reviewing papers for my 
 
 In this format, I can review your document very quickly and get you early feedback on whether the structure of your document is correct and your message is clear.  At this stage, it's also very easy for you to change things around since you haven't invested a lot of time writing a bunch of text yet.
 
-### Step 5: Create a Full Draft by Filling in Your Framework
+### Step 5: Generate Your Actual Figures and Tables and Resubmit Draft
+
+Once you and Dr. Messier are satisfied that your dummy figures/tables will make an important contribution to the message of your paper, you can proceed and use your simulation/machine learning algorithm to generate the actual plots and table values.
+
+**Be sure to use the best practices described [here](computation) when generating your values.**  Once you've created initial tables and figures with the reduced set of points, create the actual figures and tables and then give the draft back to Dr. Messier.  The paper may need to be changed if the values in your figures are not expected or the figures/tables are not as valuable as initially hoped.
+
+When importing a figure into your document *always* use EPS format.  Postscript is a vectorized file format that is rendered by the document reader.  This results in smaller files and smoother figures than bitmap based files (jpeg, png, etc.). 
+
+
+### Step 6: Create a Full Draft by Filling in Your Framework
 
 Once you and your supervisor agree that your framework is ok, fill in the details by writing the bodies of your paragraphs.  As you do this, it's very likely that you may find that you want to add new paragraphs to discuss ideas that you didn't think of when putting together your framework.  This is fine.  Simply create a new paragraph with a good opening sentence that summarizes the idea in that paragraph.
 
