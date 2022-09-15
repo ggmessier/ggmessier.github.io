@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -10,7 +11,8 @@ The following list of publications includes links to preprint versions of each p
 **Note:** Many of these papers will utilize sensitive datasets that are controlled using university ethics board approved security and privacy protocols.  As a result, the datasets used by the posted source code are often not included.  This means that you can inspect our code to gain insights into our methods but you will not be able to run it to reproduce results.
 
 ### Journal Papers
-1. 
+1. C. John and G. G. Messier, "A Rule Search Framework for the Early Identification of Chronic Emergency Homeless Shelter Clients", submitted to Engineering Applications of Artificial Intelligence, March, 2022. [(arXiv preprint)](https://arxiv.org/abs/2205.09883), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/Chronic%20Risk%20Rule%20Search)
+
 
 1. G. G. Messier, C. John and A. Malik, "Predicting Chronic Homelessness: The Importance of Comparing Algorithms using Client Histories", Journal of Technology in Human Services, September, 2021, p. 1-12. [(DOI)](https://doi.org/10.1080/15228835.2021.1972502) [(arXiv preprint)](https://arxiv.org/abs/2105.15080), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/Client%20History%20Evaluation)
 
