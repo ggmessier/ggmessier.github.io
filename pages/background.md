@@ -30,10 +30,10 @@ layout: default
 - Member, IEEE
 
 ## Education
-- Doctor of Philosophy in Electrical and Computer Engineering\\ University of Alberta, 2004
-- Master of Science in Electrical and Computer Engineering\\ University of Calgary, 1998
-- Bachelor of Science in Electrical Engineering, Great Distinction\\ University of Saskatchewan, 1996
-- Bachelor of Science in Computer Science, Great Distinction\\ University of Saskatchewan, 1996
+- Doctor of Philosophy in Electrical and Computer Engineering<br>University of Alberta, 2004
+- Master of Science in Electrical and Computer Engineering<br>University of Calgary, 1998
+- Bachelor of Science in Electrical Engineering, Great Distinction<br>University of Saskatchewan, 1996
+- Bachelor of Science in Computer Science, Great Distinction<br>University of Saskatchewan, 1996
 
 ## Industry Experience
 - Cellsite Systems Engineer, Nortel Networks, 1998 – 2004
