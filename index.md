@@ -23,6 +23,7 @@ We work in cross-disciplinary teams that include researchers and clinicians from
 
 Data science and machine learning can be used in a variety of ways and it is important to emphasize that we are not developing algorithms that automate support and/or treatment decisions.  Instead, our goal is to develop tools that provide information to support the human staff doing front line work with vulnerable individuals.
 
+* [Vulnerable People and Homelessness](pages/vulnerable)
 * [Publications](pages/pubs)
 * [Data Science Resources](pages/data)
 * [Information for Prospective Graduate Students](pages/prospective-students)

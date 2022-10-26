@@ -15,7 +15,7 @@ layout: default
 **ENCM 493: Software Development for Computer Engineers** (Winter 2007, Winter 2006, Winter 2005)<br>
 
 ### Graduate
-**ENEL 649: Random Variables and Stochastic Processes** (Fall 2020, Fall 2018, Fall 2017, Fall 2016, Fall 2010, Winter 2010, Fall 2008, Fall 2007, Fall 2006, Fall 2005)<br>
+**ENEL 649: Random Variables and Stochastic Processes** (Fall 2022, Fall 2021, Fall 2020, Fall 2018, Fall 2017, Fall 2016, Fall 2010, Winter 2010, Fall 2008, Fall 2007, Fall 2006, Fall 2005)<br>
 **ENEL 675: Digital Communications** (Winter 2015, Spring 2014, Winter 2007, Winter 2006, Winter 2005, Fall 2012)<br>
 
 
