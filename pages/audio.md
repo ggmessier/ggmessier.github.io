@@ -17,7 +17,7 @@ Sound is expressed in decibels which, of course, is just a ratio of relative pow
 
 Consider the 8~ohm, 800~mW SP-1605 speaker (Digikey Part: 433-1104-ND).  The speaker is rated to deliver 88~dB at 1~W (an extrapolated value since the speaker can't take 1~W) and let's assume we want a volume range from 50~dB to 68~dB.  That corresponds to a maximum and minimum power of
 
-$$
+\$$
 \begin{array}{cc}
 P_{\rm max} = 30 - 20 = 10~{\rm dBm} &
 P_{\rm min} = 30 - 38 = -8~{\rm dBm}
@@ -32,7 +32,7 @@ Assuming the 10-bit DAC is used, the maximum voltage value is $V_{DD}$.  Since o
 
 Since this voltage is greater than our target maximum voltage even with no amplification, we need to put a resistor in series with the speaker.  Assuming a minimum amplifier gain of unity, the series resistance is equal to
 
-$$
+\$$
 R_s = 412.5/50.4 \cdot (8 - 8 \cdot 50.4/412.5) = 57.5\ \Omega
 $$
 

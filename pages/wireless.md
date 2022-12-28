@@ -10,6 +10,21 @@ Wireless connectivity for my home hobby devices is provided using the [LoRa prot
 My network uses a star topology with a single access point implemented by connecting a [Beaglebone](bbb) to an SX1280 dev board.  The network nodes are [AVR MCUs](avr) connected to SX1280 dev boards.  The SPI serial bus is used for both the Beaglebone and AVR interfaces.
 
 
+## Power Budget
+
+Rx worst case cost:
+- (Sleep to STDBY_RC) = 1200 us @ 700 uA = 2.3e-7 mAh
+- (STDBY_RC to RX) = 85 us @ 700 uA = 1.652e-8 mAh
+- (Rx Time @ 325 kBit/sec) = 3.1 us/bit  @ 7 mA = 6e-9 mAh/bit
+
+Tx worst case cost:
+- (Sleep to STDBY_RC) = 1200 us @ 700 uA = 2.3e-7 mAh
+- (STDBY_RC to RX) = 85 us @ 700 uA = 1.652e-8 mAh
+- (Tx Time @ 325 kBit/sec) = 3.1 us/bit  @ 18 mA = 1.54e-8 mAh/bit
+
+
+
+
 ## Pinout
 
 Relevant pins for my designs:
