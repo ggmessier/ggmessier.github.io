@@ -70,6 +70,14 @@ A wireless protocol built on top of LoRa.
 A simple filesystem for the external FLASH chips used on the dAuratus board.  A play on will-o-the-wisps or [ignis fatuus](https://en.wikipedia.org/wiki/Will-o%27-the-wisp) which were flashes in swamps scientifically attributed to the spontaneous combustion of marsh gas.   
 
 
+## Fan Controller
 
+A controller for 12VDC fans to adjust their speed and gust pattern.  Used to create air movement in a grow box to strengthen the plants and prevent fungus and/or rot.
 
+- The speed of the fans is adjusted by treating each one as a load for a TSM4NB60 MOSFET.
+- Gate voltage is adjusted by RC lowpass filtering the pulse width modulated outputs of the three 8 bit TCB timers on the AVR128DB28 MCU.  The RC time constant equals (10kOhm)*(1uF) = 10ms.
+- Fan observations:
+  + The fans benefit from a brief stretch at a 100% duty cycle (max speed) to spin them up.  Start up remains inconsistent so the duration of startup time may need to be adjusted.
+  + Fan speed is non-linear with the fan very quickly going from a medium speed to off (approximately over   90% to 87% duty cycle).  A non-linear step pattern through this range would give the fans a more linear behavior.
+  + When fans driven too slowly, they enter an oscillatory state where they alternate between gusting and off.
 
