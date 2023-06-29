@@ -15,6 +15,8 @@ The following list of publications includes links to preprint versions of each p
 1. G. G. Messier, L. Tutty and C. John, "The Best Thresholds for Rapid Identification of Episodic and Chronic Homeless Shelter Use", International Journal on Homelessness, Vol. 2, No. 1, November, 2021, p. 1-11  [(DOI)](https://doi.org/10.5206/ijoh.2022.1.13607), [(arXiv preprint PDF)](https://arxiv.org/abs/2105.01042), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/RAPID%20Tests)
 
 ### Presentations
+1. G. G. Messier, "The High Bar for Interpretable Machine Learning in Housing, Homelessness and Health", University of Calgary Transdisciplinary Data Science Research Day (Invited Talk), 2023. [(YouTuble)](https://youtu.be/VH_ukYcWAVc)
+1. G. G. Messier, "Visualizing Journeys Through the Housing and Homelessness System of Care", Data that Makes a Difference, 2023. [(YouTube)](https://youtu.be/sD4ZzzUaFc0)
 1. G. G. Messier, "Is Artifical Intelligence the Right Tool for Preventing Homelessness?", CAEH National Conference on Ending Homelessness, 2022. [(YouTube)](https://youtu.be/_R0Uk28drOA), [(Conference Website)](https://conference.caeh.ca/)
 1. G. G. Messier, "User Experience (UX) Design of Data Tools for Shelter Staff", CAEH National Conference on Ending Homelessness, 2021. [(YouTube)](https://youtu.be/wawVFXk_4Y0), [(Conference Website)](https://conference.caeh.ca/)
 1. G. G. Messier, "Designing Data Tools for Emergency Shelter Staff", Presentation to Data for Good Calgary Chapter, June, 2019. [(Slides)](../pdfs/GMessier - Data Tools for Emergency Shelter Staff - June 2019.pdf)
