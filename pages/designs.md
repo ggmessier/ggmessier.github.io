@@ -23,7 +23,7 @@ The dAuratus board is named after [dendrobates auratus](https://en.wikipedia.org
 
 - Co-locate communication pins for easy connector design:
   + Serial terminal communications requires USART TxD, RxD and GND.
-  + SPI requires MOSI, MISO, SCK and one I/O pin per device for slave select.
+  + SPI requires MOSI, MISO, SCK and one I/O pin per device for slave select (SS).
   + VDD, GND and UPDI for programming (keep same order as SNAP).  Place on 3 pin dedicated vertical male header.
 
 - External device header layout
@@ -54,6 +54,23 @@ Implemented using a dAuratus board with the following functionality:
 - Temperature sensor.
 - eRibbit wireless link.
 
+### Moisture Sensor
+
+Similar to many moisture sensor designs, this design measures moisture levels using the change in capacitance between two plates on a PCB.  This is a coplanar capacitor.  The exact capacitance for a coplanar capacitor [can be derived](https://doi-org.ezproxy.lib.ucalgary.ca/10.1016/j.elstat.2019.103371) for two rectangular strips of width $d$ and center point separation $w$.  My actual plate layout is based on existing moisture sensors with a double wide center plate surrounded by a "U" shaped outer plate.  I assume (with no strong theoretical basis) that this is equivalent to two rectangular plates of identical width and twice the length.  The relative dielectric constant, $\epsilon_r$, of water is approximately 80 and air is approximately 1 so we can expect soil to fall between these two extremes.  Dry earth is between 3 and 5.
+
+The sensor is based on putting the moisture sensitive capacitor into a simple RC circuit and driving it with a square wave.  The period should be such that the positive pulse equals the length of time required for the RC circuit to easily reach its maximum for its smallest possible time constant (air).  As moisture is added to the soil, capacitance increases, rise time increases and the waveform maximum amplitude will reduce.  This RC waveform is passed through a diode and lowpass filter to convert to a constant analog voltage.  This voltage will drop as soil moisture level increases.
+
+The following spice simulation demonstrates (as is typical with these kinds of things) that the analog voltage isn't linear with the differences in relative permittivity.  The relative permittivity corresponds to a moisture capacitor equivalent to two plates 4mm wide and 120mm long separated by 2.3mm.  The pulse width corresponds to what's easy to generate with a low clock rate MCU.  Open the voltage window in a new tab if you can't see the font.
+
+![SoilMoistureSim](../src/SoilMoistureSpice.png)
+![SoilMoistureVoltages](../src/SoilMoistureVoltage.png)
+
+
+
+
+
+
+
 
 ## bbBufo
 
@@ -69,15 +86,4 @@ A wireless protocol built on top of LoRa.
 
 A simple filesystem for the external FLASH chips used on the dAuratus board.  A play on will-o-the-wisps or [ignis fatuus](https://en.wikipedia.org/wiki/Will-o%27-the-wisp) which were flashes in swamps scientifically attributed to the spontaneous combustion of marsh gas.   
 
-
-## Fan Controller
-
-A controller for 12VDC fans to adjust their speed and gust pattern.  Used to create air movement in a grow box to strengthen the plants and prevent fungus and/or rot.
-
-- The speed of the fans is adjusted by treating each one as a load for a TSM4NB60 MOSFET.
-- Gate voltage is adjusted by RC lowpass filtering the pulse width modulated outputs of the three 8 bit TCB timers on the AVR128DB28 MCU.  The RC time constant equals (10kOhm)*(1uF) = 10ms.
-- Fan observations:
-  + The fans benefit from a brief stretch at a 100% duty cycle (max speed) to spin them up.  Start up remains inconsistent so the duration of startup time may need to be adjusted.
-  + Fan speed is non-linear with the fan very quickly going from a medium speed to off (approximately over   90% to 87% duty cycle).  A non-linear step pattern through this range would give the fans a more linear behavior.
-  + When fans driven too slowly, they enter an oscillatory state where they alternate between gusting and off.
 

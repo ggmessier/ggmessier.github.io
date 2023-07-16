@@ -20,11 +20,12 @@ The board vendor I use is [Dirty PCBs](https://dirtypcbs.com/store/pcbs/about). 
 - PTH is plated through hole and NPTH is non-plated through hole.
 - PTH A/R is aspect ratio.  A value of 8:1 means that a 1.6mm thick board has a PTH of 0.2mm.  This means setting min hole widths to 0.2mm should be pretty safe.
 
-
-
-
-
 Here's a handy [PCB trace width calculator](https://www.4pcb.com/trace-width-calculator.html).
+
+
+## Circuit Simulation
+
+For the low frequency electronics that I work on, a basic spice simulation works fine.  I learned on [ngspice](https://ngspice.sourceforge.io/) which is still a good choice but I find it's a little easier to use [ltspice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) these days since it's a bit more complete.  That said, the [ngspice user manual](https://ngspice.sourceforge.io/docs.html) is still my go-to reference for low level spice syntax.
 
 
 
