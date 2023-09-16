@@ -22,6 +22,15 @@ The board vendor I use is [Dirty PCBs](https://dirtypcbs.com/store/pcbs/about). 
 
 Here's a handy [PCB trace width calculator](https://www.4pcb.com/trace-width-calculator.html).
 
+When doing a KiCad gerber file export to DirtyPCBs:
+- Check "Use Protel filename extensions".
+- Include the copper, paste, silkscreen, mask and edge cut layers.
+- Change the edge cut filename extension from `gm1` to `gbr`.
+- When creating the drill file, check the option for exporting PTH and NPTH to a single file.
+
+
+
+
 
 ## Circuit Simulation
 

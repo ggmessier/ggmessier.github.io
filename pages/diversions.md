@@ -18,5 +18,6 @@ It's defintely fair to say that I got into electrical engineering mainly because
 * [Power Budget Information](power)
 * [Audio](audio)
 * [Displays](display)
+* [RPG Shell](rpg-shell)
 
 Version numbers follow the two digit convention X.Y where X is incremented for the addition of new functionality and Y is incremented for bug fixes that do not change functionality.
