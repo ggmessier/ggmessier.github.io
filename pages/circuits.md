@@ -18,9 +18,16 @@ The board vendor I use is [Dirty PCBs](https://dirtypcbs.com/store/pcbs/about). 
 - BGA is ball grid array.
 - SMD is surface mount device and refers to the pad size of SMD devices.  It's 8mil or 0.2mm.  Most of my SOIC pads seem to default to 0.5mm so this is fine.
 - PTH is plated through hole and NPTH is non-plated through hole.
+
 - PTH A/R is aspect ratio.  A value of 8:1 means that a 1.6mm thick board has a PTH of 0.2mm.  This means setting min hole widths to 0.2mm should be pretty safe.
 
 Here's a handy [PCB trace width calculator](https://www.4pcb.com/trace-width-calculator.html).
+
+To make PCB creation cheaper and more efficient, it's often useful to tile or panelize many smaller PCB designs up to the maximum area allowed by your board house (10cm x 10cm in the case of Dirty PCBs).
+- Start KiCad's `PCBNew` application in standalone mode.
+- Add your different PCB designs using `Append board` from the File pulldown menu.
+- Delete/edit your board edges to connect them with tabs and mouse bites as appropriate.
+
 
 When doing a KiCad gerber file export to DirtyPCBs:
 - Check "Use Protel filename extensions".

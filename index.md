@@ -19,9 +19,20 @@ Office: Room 308, Information and Communication Technology (ICT) Building<br>
 
 My research involves using data science to improve the services provided to people experiencing homelessness, mental health disorders and addiction.  This ranges from developing algorithms to help spot folks who need help to creating data visualization tools for staff working directly with vulnerable groups.
 
-We work in cross-disciplinary teams that include researchers and clinicians from psychiatry, medicine and social work.  We are also proud to collaborate with some of the amazing community agencies that provide support to this very vulnerable group.  These agencies include [The Calgary Drop-In Centre](https://calgarydropin.ca/), the [Calgary Homeless Foundation](https://www.calgaryhomeless.com/) and [Trellis](https://www.growwithtrellis.ca/).
+We work in cross-disciplinary teams that include researchers and clinicians from psychiatry, medicine and social work.  We are also proud to collaborate with some of the amazing community agencies that provide support to this very vulnerable group.  These agencies include [The Calgary Drop-In Centre](https://calgarydropin.ca/), the [Calgary Homeless Foundation](https://www.calgaryhomeless.com/) and [Trellis Youth & Family Services](https://www.growwithtrellis.ca/).
 
 Data science and machine learning can be used in a variety of ways and it is important to emphasize that we are not developing algorithms that automate support and/or treatment decisions.  Instead, our goal is to develop tools that provide information to support the human staff doing front line work with vulnerable individuals.
+
+The following presentations provide a good overview of my research program:
+- [How to Link Agency Client Records and Protect Privacy](youtu.be/1duj6xzLyoU)
+- [The High Bar for Interpretable Machine Learning in Housing, Homelessness and Health](https://youtu.be/VH_ukYcWAVc)
+- [Visualizing Journeys Through the Housing and Homelessness System of Care](https://youtu.be/sD4ZzzUaFc0)
+- [Is Artifical Intelligence the Right Tool for Preventing Homelessness?](https://youtu.be/_R0Uk28drOA)
+- [User Experience (UX) Design of Data Tools for Shelter Staff](https://youtu.be/wawVFXk_4Y0)
+
+
+
+More detail on my research program can be found here:
 
 * [Vulnerable People and Homelessness](pages/vulnerable)
 * [Publications](pages/pubs)
@@ -40,6 +51,6 @@ On my [YouTube Channel](https://www.youtube.com/channel/UC9lbQ5Kkad4yI338WcdQ1SQ
 - [Wireless Communications](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXsvsLzMXT2Fk4ZPD7BJTBX) (graduate course)
 - [Digital Communications](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXpEiNn2IqD5sCHws4UG_sS) (graduate course)
 
-You can also view a list of the classes I've taught in the past and see a few assorted notes regarding project and labs [here](pages/teaching).
+You can also view a list of the classes I've taught in the past [here](pages/teaching).
 
 

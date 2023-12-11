@@ -3,20 +3,36 @@ layout: default
 ---
 # Publications
 
-## Data Science
+## Data Science, Homelessness, Mental Health
 
 The following list of publications includes links to preprint versions of each paper and the source code used to generate results.  The source code is distributed under the  [GNU General Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 **Note:** Many of these papers will utilize sensitive datasets that are controlled using university ethics board approved security and privacy protocols.  As a result, the datasets used by the posted source code are often not included.  This means that you can inspect our code to gain insights into our methods but you will not be able to run it to reproduce results.
 
+### Submitted
+1. R. Barry, J. Anderson, L. Tran, A. Bahji, G. Dimitropolous, S. M. Ghosh, J. Kirkham, G. Messier, S. Patten, K. Rittenbach, and D. Seitz, The Prevalence of Addictions and Mental Health Problems among Individuals Experiencing Homelessness: A Systematic Review and Meta-analysis, submitted to JAMA Psychiatry, Jun. 2023.
+
+1. F. Shahidi, M. E. MacDonald, and G. G. Messier, Risk Assessment and Predicting Home- lessness and Police Interaction in Calgary Through Administrative Health Care Data, sub- mitted to Scientific Reports, Nov. 2023. doi: DOI:10.21203/rs.3.rs-3592036/v1.
+
+
 ### Journal Papers
-1. G. G. Messier, "A Graph Analysis of the Impact of COVID-19 on Emergency Housing Shelter Access Patterns", submitted to Pandemic Planning and Homelessness, June 2023. [(arXiv preprint)](http://arxiv.org/abs/2308.08028).
-1. F. Shahidi, M. E. MacDonald, D. Seitz, G. G. Messier, "The Effect of Epidemiological Cohort Creation on the Machine Learning Prediction of Homelessness and Police Interaction Outcomes Using Administrative Health Care Data", submitted to Frontiers in Digital Health, June, 2023 [(arXiv preprint)](https://arxiv.org/abs/2307.11211)
+
+1. G. G. Messier, A Simpler Method for Understanding Emergency Shelter Access Patterns, accepted to the Journal of Social Distress and Homelessness, Dec. 2023. [(DOI)](https://doi.org/10.1080/10530789.2023.2294599), [(arXiv preprint)](https://arxiv.org/abs/2210.13619)
 1. G. G. Messier, "A Simpler Method for Understanding Emergency Shelter Access Patterns ", submitted to the Journal of Social Distress and Homelessness, October, 2022. [(arXiv preprint)](https://arxiv.org/abs/2210.13619), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/SAM)
 1. G. G. Messier, C. John and A. Malik, "Predicting Chronic Homelessness: The Importance of Comparing Algorithms using Client Histories", Journal of Technology in Human Services, September, 2021, p. 1-12. [(DOI)](https://doi.org/10.1080/15228835.2021.1972502) [(arXiv preprint)](https://arxiv.org/abs/2105.15080), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/Client%20History%20Evaluation)
 1. G. G. Messier, L. Tutty and C. John, "The Best Thresholds for Rapid Identification of Episodic and Chronic Homeless Shelter Use", International Journal on Homelessness, Vol. 2, No. 1, November, 2021, p. 1-11  [(DOI)](https://doi.org/10.5206/ijoh.2022.1.13607), [(arXiv preprint PDF)](https://arxiv.org/abs/2105.01042), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/RAPID%20Tests)
 
+### Book Chapters
+
+1. G. G. Messier, A Graph Analysis of the Impact of COVID-19 on Emergency Housing Shelter Access Patterns, accepted to Pandemic planning and homelessness: Lessons from COVID-19, Canadian Observatory on Homelessness, Sep. 2023. [(arXiv preprint)](https://arxiv.org/abs/2308.08028)
+
+
 ### Presentations
+
+1. G. G. Messier, How to Link Agency Client Records and Protect Privacy, CAEH National Conference on Ending Homelessness, November, 2023. [(YouTube)](youtu.be/1duj6xzLyoU), [(Conference Website)](https://conference.caeh.ca/)
+1. O. A. Jakpa and G. G. Messier, Early Identification of Youth at Risk of Long Term Emergency Homeless Shelter Use: An Evaluation of Interpretable Machine Learning Models, 24th Annual Alberta Biomedical Engineering Conference, Oct. 2023.
+1. M. Taib and G. G. Messier, Using Windowing As A Hyperparameter For Administrative Homelessness Data Classification, 24th Annual Alberta Biomedical Engineering Conference, Oct. 2023.
+1. T. W. Masrani, G. G. Messier, and H. Ai He, Data Visualization To Facilitate Compassionate Decision Making In Emergency Housing Shelters, Canadian Communication Association Conference, Jun. 2023.
 1. G. G. Messier, "The High Bar for Interpretable Machine Learning in Housing, Homelessness and Health", University of Calgary Transdisciplinary Data Science Research Day (Invited Talk), June, 2023. [(YouTuble)](https://youtu.be/VH_ukYcWAVc)
 1. T. W. Masrani, G. G. Messier, H. Ai He, "Data Visualization To Facilitate Compassionate Decision Making In Emergency Housing Shelters", Canadian Communication Association Conference, June, 2023.
 1. G. G. Messier, "Visualizing Journeys Through the Housing and Homelessness System of Care", Data that Makes a Difference, May, 2023. [(YouTube)](https://youtu.be/sD4ZzzUaFc0)
@@ -29,8 +45,8 @@ The following list of publications includes links to preprint versions of each p
 
 
 
-
-## Communications Networks
+---
+## Communications & Data Networks
 
 
 
