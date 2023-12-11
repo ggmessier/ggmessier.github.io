@@ -24,7 +24,7 @@ We work in cross-disciplinary teams that include researchers and clinicians from
 Data science and machine learning can be used in a variety of ways and it is important to emphasize that we are not developing algorithms that automate support and/or treatment decisions.  Instead, our goal is to develop tools that provide information to support the human staff doing front line work with vulnerable individuals.
 
 The following presentations provide a good overview of my research program:
-- [How to Link Agency Client Records and Protect Privacy](youtu.be/1duj6xzLyoU)
+- [How to Link Agency Client Records and Protect Privacy](https://youtu.be/1duj6xzLyoU)
 - [The High Bar for Interpretable Machine Learning in Housing, Homelessness and Health](https://youtu.be/VH_ukYcWAVc)
 - [Visualizing Journeys Through the Housing and Homelessness System of Care](https://youtu.be/sD4ZzzUaFc0)
 - [Is Artifical Intelligence the Right Tool for Preventing Homelessness?](https://youtu.be/_R0Uk28drOA)
