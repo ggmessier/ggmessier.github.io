@@ -5,7 +5,7 @@
 layout: default
 ---
 
-I'm a Professor in [Electrical and Software Engineering](https://schulich.ucalgary.ca/electrical-software) in the [Schulich School of Engineering](https://schulich.ucalgary.ca/) at the [University of Calgary](https://ucalgary.ca/), Canada.  This site describes my research and teaching at the university as well as any other fun [side projects](pages/diversions) I'm interested in.  You can check out a bit more on my background [here](pages/background).  
+I'm a Professor in [Electrical and Software Engineering](https://schulich.ucalgary.ca/electrical-software) in the [Schulich School of Engineering](https://schulich.ucalgary.ca/) at the [University of Calgary](https://ucalgary.ca/), Canada.  This site describes my research and teaching at the university as well some side projects that I'm doing for fun :)   You can check out a bit more on my background [here](pages/background).  
 
 **University Contact Information:**<br>
 2500 University Drive N.W.<br>
@@ -31,7 +31,6 @@ The following presentations provide a good overview of my research program:
 - [User Experience (UX) Design of Data Tools for Shelter Staff](https://youtu.be/wawVFXk_4Y0)
 
 
-
 More detail on my research program can be found here:
 
 * [Vulnerable People and Homelessness](pages/vulnerable)
@@ -52,5 +51,22 @@ On my [YouTube Channel](https://www.youtube.com/channel/UC9lbQ5Kkad4yI338WcdQ1SQ
 - [Digital Communications](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXpEiNn2IqD5sCHws4UG_sS) (graduate course)
 
 You can also view a list of the classes I've taught in the past [here](pages/teaching).
+
+
+## Hobbies and Diversions
+
+It's defintely fair to say that I got into electrical engineering mainly because it would help me have more fun with my hobby projects!  Here's some assorted information about some of the projects I'm enjoying. Much of this is frog themed due to a long time love of [Kermit](https://en.wikipedia.org/wiki/Kermit_the_Frog) and the [role of frogs in our ecosystems](https://www.naturewatch.ca/wp-content/biguploads/senior_guide_712.pdf).
+
+* [My Designs](pages/designs)
+* [3D Printing](pages/printing)
+* [Electronics Notes](pages/circuits)
+* [Power Budgets](pages/power)
+* [Audio](pages/audio)
+* [Displays](pages/display)
+* [AVR Micro-controller Notes](pages/avr)
+* [Beaglebone Black](pages/bbb)
+* [Web Based GUI](pages/gui)
+
+
 
 
