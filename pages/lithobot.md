@@ -21,6 +21,11 @@ Implemented using a dAuratus board with the following functionality:
   + Debugging.
   + Sensor data collection adjustments.
 - Communicates with main using eRibbit and either a wireless or direct UART link.
+- Pins:
+  + UART: PA0,PA1,GND.
+  + Temperature Probes (Q:2): PD1 (op-amp input), PA4,PA5 (open collector RTD switches).
+  + Sunlight Sensor: PD2 (analog comparator), PA6 (digital output to drive RC photo circuit).
+  + Soil Sensor: PD3 (ADC AIN3 input), PA3 (TCB0 WO)
 
 **Outdoor Boss Lithobot:**
 - Hand held bot for interfacing with secondary outdoor lithobots.
@@ -45,9 +50,20 @@ Implemented using a dAuratus board with the following functionality:
 - Character display and 3 button interface.
   + Cycle through fan presets.
   + Present temperature summary.
+- Pins:
+  + UART: PA0,PA1,GND.
+  + Display: PA4-PA7, PD5-PD7
+  + Temperature Probes (Q:2): PD1 (op-amp input), PD2 (open collector RTD switches).
+  + Fan Control: PA2 (TCB0, zone 1), PA3 (TCB1, zone 2)
+  + Switch Inputs: PD3, PD4
 
 
 
+### Fan Control
+
+- Four wire PC cooling fans are adjustable speed and have a standard connector pinout:
+![4WireFan](../src/4WireFan.png)
+- The standard base frequency for the PWM is 25~kHz but the fans I have worked ok with a 10~kHz base frequency (a bit easier for slow MCU clocks).  The PWM can be 3.3V even if the fan power is 12V.  Full speed is 100% duty cycle and it scales down from there.
 
 
 ### Sunlight Sensor
@@ -78,6 +94,14 @@ Implemented using a dAuratus board with the following functionality:
   + Single wire serial bus interface to a metal enclosed temperature sensor IC.
   + Park this for now since this is yet another serial protocol to figure out.  Try the RTD instead.
   + Pins: An I/O line.
+
+**RTD:**
+- Thermal tape bonded an RTD to an alligator clip.
+- Resistive tests:
+  1. Ice Bath: 101 ohm
+  2. Body Temperature: 113 ohm
+  3. Room Temperature: 108 
+
 
 
 
