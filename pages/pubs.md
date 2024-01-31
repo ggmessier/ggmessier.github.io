@@ -10,7 +10,7 @@ The following list of publications includes links to preprint versions of each p
 **Note:** Many of these papers will utilize sensitive datasets that are controlled using university ethics board approved security and privacy protocols.  As a result, the datasets used by the posted source code are often not included.  This means that you can inspect our code to gain insights into our methods but you will not be able to run it to reproduce results.
 
 ### Submitted
-1. M. Taib and G. G. Messier, "Efficient Observation Time Window Segmentation for Administrative Data Machine Learning", submitted to the ACM Transactions on Management Information Systems, Dec. 2023.
+1. M. Taib and G. G. Messier, "Efficient Observation Time Window Segmentation for Administrative Data Machine Learning", submitted to the ACM Transactions on Management Information Systems, Dec. 2023. [(arXiv preprint)](https://arxiv.org/abs/2401.16537)
 
 1. R. Barry, J. Anderson, L. Tran, A. Bahji, G. Dimitropolous, S. M. Ghosh, J. Kirkham, G. Messier, S. Patten, K. Rittenbach, and D. Seitz,"The Prevalence of Addictions and Mental Health Problems among Individuals Experiencing Homelessness: A Systematic Review and Meta-analysis", submitted to JAMA Psychiatry, Jun. 2023.
 
