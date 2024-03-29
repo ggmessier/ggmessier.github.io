@@ -17,11 +17,11 @@ Office: Room 308, Information and Communication Technology (ICT) Building<br>
 
 ## Research
 
-My research involves using data science to improve the services provided to people experiencing homelessness, mental health disorders and addiction.  This ranges from developing algorithms to help spot folks who need help to creating data visualization tools for staff working directly with vulnerable groups.
+My research involves using data science to improve the services provided to people experiencing homelessness, mental health disorders and addiction.  This ranges from developing algorithms to help spot folks who need help to creating data tools for staff working in agencies and clinics offering help.
 
-We work in cross-disciplinary teams that include researchers and clinicians from psychiatry, medicine and social work.  We are also proud to collaborate with some of the amazing community agencies that provide support to this very vulnerable group.  These agencies include [The Calgary Drop-In Centre](https://calgarydropin.ca/), the [Calgary Homeless Foundation](https://www.calgaryhomeless.com/) and [Trellis Youth & Family Services](https://www.growwithtrellis.ca/).
+We work in cross-disciplinary teams that include researchers and clinicians from psychiatry, medicine and social work.  We are also proud to collaborate with some of the amazing community agencies that provide support to this very important group.  These agencies include [The Calgary Drop-In Centre](https://calgarydropin.ca/), the [Calgary Homeless Foundation](https://www.calgaryhomeless.com/) and [Trellis Youth & Family Services](https://www.growwithtrellis.ca/).
 
-Data science and machine learning can be used in a variety of ways and it is important to emphasize that we are not developing algorithms that automate support and/or treatment decisions.  Instead, our goal is to develop tools that provide information to support the human staff doing front line work with vulnerable individuals.
+Data science and machine learning can be used in a variety of ways and it is important to emphasize that we are not developing algorithms that automate support and/or treatment decisions.  Instead, our goal is to develop tools that provide information to support the human staff doing front line work with individuals who need help.
 
 The following presentations provide a good overview of my research program:
 - [How to Link Agency Client Records and Protect Privacy](https://youtu.be/1duj6xzLyoU)
@@ -33,11 +33,18 @@ The following presentations provide a good overview of my research program:
 
 More detail on my research program can be found here:
 
-* [Vulnerable People and Homelessness](pages/vulnerable)
+* [Learning How to Help People](pages/helping)
 * [Publications](pages/pubs)
 * [Data Science Resources](pages/data)
 * [Information for Prospective Graduate Students](pages/prospective-students)
 * [Information for Current Graduate Students](pages/current-students)
+
+## A Note about Language
+
+Language matters and it's important to use terms that do not further disadvantage the people we're trying to help.  In particular, the use of the term "vulnerable people" can suggest that vulnerability is a property of that group rather than a set of external circumstances they are experiencing, many beyond their control.  An excellent discussion of this issue that can be found [here](https://socialhousingmatters.co.uk/index.php/2021/05/11/language-matters-use-of-vulnerability/).
+
+I am committed to not perpetuating harm with the language I choose.  However, this has been a journey for me and some of the language I use in older publications and presentations may fall short of current best practices.
+
 
 ## Teaching
 
