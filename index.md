@@ -55,17 +55,7 @@ You can also view a list of the classes I've taught in the past [here](pages/tea
 
 ## Hobbies and Diversions
 
-It's defintely fair to say that I got into electrical engineering mainly because it would help me have more fun with my hobby projects!  Here's some assorted information about some of the projects I'm enjoying. Much of this is frog themed due to a long time love of [Kermit](https://en.wikipedia.org/wiki/Kermit_the_Frog) and the [role of frogs in our ecosystems](https://www.naturewatch.ca/wp-content/biguploads/senior_guide_712.pdf).
-
-* [My Designs](pages/designs)
-* [3D Printing](pages/printing)
-* [Electronics Notes](pages/circuits)
-* [Power Budgets](pages/power)
-* [Audio](pages/audio)
-* [Displays](pages/display)
-* [AVR Micro-controller Notes](pages/avr)
-* [Beaglebone Black](pages/bbb)
-* [Web Based GUI](pages/gui)
+It's defintely fair to say that I got into electrical engineering mainly because it would help me have more fun with my hobby projects!  You can find assorted information about the various projects I'm enjoing on my [GitHub wiki](https://github.com/ggmessier/frogs/wiki).  Much of this is frog themed due to a long time love of [Kermit](https://en.wikipedia.org/wiki/Kermit_the_Frog) and the [role of frogs in our ecosystems](https://www.naturewatch.ca/wp-content/biguploads/senior_guide_712.pdf).
 
 
 
