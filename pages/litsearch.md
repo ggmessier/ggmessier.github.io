@@ -11,7 +11,7 @@ Becoming aware of the work and people in your research area is one of the most i
 1. **It helps you learn.** No one person can think of everything.  By reading the important papers in your area and following the important groups and conferences, you'll be exposed to all kinds of new and exciting ideas that you can apply to your own work.
 
 ## Objectives of a Good Literature Search
-With the convenience of online search tools like IEEE Xplore, Google Scholar and the ACM Digital Library, a literature search seems deceptively easy.   It seems like you just need to type in a few keywords, read through the papers that come up and then reference a few of them.  While online search tools are extremely important, you must always remember that a good literature search should allow you to answer the following questions:  
+With the convenience of online search tools like Scopus, Google Scholar and the ACM Digital Library, a literature search seems deceptively easy.   It seems like you just need to type in a few keywords, read through the papers that come up and then reference a few of them.  While online search tools are extremely important, you must always remember that a good literature search should allow you to answer the following questions:  
 
 1. What are the key, foundational papers that really started off the research in your area? 
 1. What are the latest and most important developments in your area?
@@ -27,19 +27,16 @@ To illustrate how these phases work, the following sections will present a case 
 
 #### Step 1: Finding the right keywords.
 
-So, you've just started your research project and you've established your general area with your supervisor.  Now it's time to do your first online search.  The first step is to select the database you should use.  A fact of life for electrical engineers is that all the best research is published through the IEEE so doing an [IEEE Xplore](http://ieeexplore.ieee.org.ezproxy.lib.ucalgary.ca/search/cmdsearch.jsp) search is a must.  If you are doing network or machine learning related research, you should also do a search on the [ACM Digital Library](http://portal.acm.org.ezproxy.lib.ucalgary.ca/dl.cfm) and [Google Scholar](https://scholar.google.com/).
+So, you've just started your research project and you've established your general area with your supervisor.  Now it's time to do your first online search.  The first step is to select the database you should use.  The best choice is to use a tool that covers a number of publication databases.  [Google Scholar](https://scholar.google.com/) is ok but doesn't provide a lot of search operator flexibility.  [Scopus](https://www-scopus-com.ezproxy.lib.ucalgary.ca/) is a good choice and can be accessed through the University of Calgary library website.
 
 The biggest danger of doing an online search is that you miss the important papers in your area.  This happens when you perform a search that is too specific.  A rule of thumb is that if you don't get at least 150 papers coming out of your search, then you need to generalize your search words.
 
-For example, Kevin could type in the search ("aerial wireless sensor deployment") into IEEE Xplore.  This yields no papers.  Is Kevin the only person in the world thinking about aerial deployment of sensors?  Obviously not.  The search was too restrictive.  He then types in the following search (wireless AND sensor AND (aerial OR airplane OR helicopter OR UAV OR flight)).  This yields 237 hits which is a good number.
+For example, Kevin could type in the search ("aerial wireless sensor deployment").  This yields no papers.  Is Kevin the only person in the world thinking about aerial deployment of sensors?  Obviously not.  The search was too restrictive.  He then types in the following search (wireless AND sensor AND (aerial OR airplane OR helicopter OR UAV OR flight)).  This yields 237 hits which is a good number.
 
-The ACM Digital Library search engine is a bit more restrictive.  However, an AND search for the terms "wireless", "sensor" and "aerial" produced 125 hits after isolating for only ACM publications and proceedings.
-
-Some search engines, like Google Scholar, will give you an essentially unlimited list of papers to look at.  In these cases, you can look through the first 300 or so.
 
 #### Step 2: Sorting through the big list.
 
-Do you have to read all 362 papers?  Not exactly.  Instead, you need to go through the following process:
+Do you have to read all 237 papers?  Not exactly.  Instead, you need to go through the following process:
 
 1. Read through the titles of all the papers on the list and download PDF's of the papers with titles that seem relevant.  At the end of this process, Kevin has downloaded 43 papers.
 1. Read through the abstracts of all the papers you have downloaded and delete the ones that are not relevant.  At the end of this process, Kevin has reduced his paper list to XX papers.
@@ -48,7 +45,7 @@ Wow, at this stage you might be thinking that this is going to take you a long t
 
 #### Step 3: Finding the important papers.
 
-Many researchers would stop after Step 2, assuming that their large literature search has netted all the important papers in his/her area.  While that might be true in theory, in practice even very general literature searches can miss the really important papers in an area.
+Many researchers would stop after Step 2, assuming that their large literature search has netted all the important papers in their area.  While that might be true in theory, in practice even very general literature searches can miss the really important papers in an area.
 
 In this step, you are going to rely on the literature searches done by the authors of all the papers that you have found so far.  Read through the introductions and the list of references of all the papers on your short list from Step 2.  After a while, you should notice that many of the same papers will be appearing in reference lists over and over again.  These quite often are the foundational papers that all authors consider important.  Check and see if you have these papers.  If not, download them and add them to your list.
 
@@ -75,4 +72,4 @@ As you scan through these titles and papers you should of course be looking for 
 - "Of all the new work coming out, what do I find the most exciting or innovative?"
 
 ## Some Helpful Tools
-When keeping track of the papers relevant to your research area, consider using a paper database program.  One example is JabRef which organizes papers and stores references in the native bibtex format used by Latex.  However, there are other programs out there.
+When keeping track of the papers relevant to your research area, you must use a bibliography database program.  The standard we use in our group is [Zotero](https://www.zotero.org/).
