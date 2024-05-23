@@ -30,7 +30,7 @@ The following list of publications includes links to preprint versions of each p
 
 ### Presentations
 
-1. G. G. Messier, "How to Link Agency Client Records and Protect Privacy", CAEH National Conference on Ending Homelessness, November, 2023. [(YouTube)](youtu.be/1duj6xzLyoU), [(Conference Website)](https://conference.caeh.ca/)
+1. G. G. Messier, "How to Link Agency Client Records and Protect Privacy", CAEH National Conference on Ending Homelessness, November, 2023. [(YouTube)](https://youtu.be/1duj6xzLyoU), [(Conference Website)](https://conference.caeh.ca/)
 1. O. A. Jakpa and G. G. Messier, "Early Identification of Youth at Risk of Long Term Emergency Homeless Shelter Use: An Evaluation of Interpretable Machine Learning Models", 24th Annual Alberta Biomedical Engineering Conference, Oct. 2023.
 1. M. Taib and G. G. Messier, "Using Windowing As A Hyperparameter For Administrative Homelessness Data Classification", 24th Annual Alberta Biomedical Engineering Conference, Oct. 2023.
 1. T. W. Masrani, G. G. Messier, and H. Ai He, "Data Visualization To Facilitate Compassionate Decision Making In Emergency Housing Shelters", Canadian Communication Association Conference, Jun. 2023.
