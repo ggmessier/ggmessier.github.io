@@ -30,6 +30,7 @@ The following list of publications includes links to preprint versions of each p
 
 ### Presentations
 
+1. G. G. Messier, "Using AI to Improve Homelessness Services", 2024 FEANTSA Forum (Invited Talk), June, 2024.[(YouTube)](https://youtu.be/m_JmFn_pJLg), [(Conference Website)](https://www.feantsa.org/en/event/2024/06/06/save-the-date-feantsa-forum-2024)
 1. G. G. Messier, "How to Link Agency Client Records and Protect Privacy", CAEH National Conference on Ending Homelessness, November, 2023. [(YouTube)](https://youtu.be/1duj6xzLyoU), [(Conference Website)](https://conference.caeh.ca/)
 1. O. A. Jakpa and G. G. Messier, "Early Identification of Youth at Risk of Long Term Emergency Homeless Shelter Use: An Evaluation of Interpretable Machine Learning Models", 24th Annual Alberta Biomedical Engineering Conference, Oct. 2023.
 1. M. Taib and G. G. Messier, "Using Windowing As A Hyperparameter For Administrative Homelessness Data Classification", 24th Annual Alberta Biomedical Engineering Conference, Oct. 2023.
