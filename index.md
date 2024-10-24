@@ -19,12 +19,13 @@ Office: Room 308, Information and Communication Technology (ICT) Building<br>
 
 My research involves using data science to improve the services provided to people experiencing homelessness, mental health disorders and addiction.  This ranges from developing algorithms to help spot folks who need help to creating data tools for staff working in agencies and clinics offering help.
 
-We work in cross-disciplinary teams that include researchers and clinicians from psychiatry, medicine and social work.  We are also proud to collaborate with some of the amazing community agencies that provide support to this very important group.  These agencies include [The Calgary Drop-In Centre](https://calgarydropin.ca/), the [Calgary Homeless Foundation](https://www.calgaryhomeless.com/) and [Trellis Youth & Family Services](https://www.growwithtrellis.ca/).
+We work in cross-disciplinary teams that include researchers and clinicians from psychiatry, medicine and social work.  We are also proud to collaborate with some of the amazing community agencies that provide support to this very important group.  These agencies include [The Calgary Drop-In Centre](https://calgarydropin.ca/), the [Calgary Homeless Foundation](https://www.calgaryhomeless.com/) and the [Trellis Society](https://www.growwithtrellis.ca/).
 
 Data science and machine learning can be used in a variety of ways and it is important to emphasize that we are not developing algorithms that automate support and/or treatment decisions.  Instead, our goal is to develop tools that provide information to support the human staff doing front line work with individuals who need help.
 
 The following presentations provide a good overview of my research program:
 - [Using AI to Improve Homelessness Services](https://youtu.be/m_JmFn_pJLg)
+- [Spreadsheets vs AI: When Good Enough is Good Enough](https://youtu.be/LQnKAZy2RII)
 - [How to Link Agency Client Records and Protect Privacy](https://youtu.be/1duj6xzLyoU)
 - [The High Bar for Interpretable Machine Learning in Housing, Homelessness and Health](https://youtu.be/VH_ukYcWAVc)
 - [Visualizing Journeys Through the Housing and Homelessness System of Care](https://youtu.be/sD4ZzzUaFc0)
