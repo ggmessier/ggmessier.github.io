@@ -14,14 +14,14 @@ The following list of publications includes links to preprint versions of each p
 ### Journal Papers
 
 1. M. Taib and G. G. Messier, "Efficient Observation Time Window Segmentation for Administrative Data Machine Learning",  IEEE Access, vol. 11, p. 1-11, October, 2024. [(DOI)](https://doi.org/10.1109/ACCESS.2024.3484270)
-1. R. Barry, J. Anderson, L. Tran, A. Bahji, G. Dimitropolous, S. M. Ghosh, J. Kirkham, G. Messier, S. Patten, K. Rittenbach, and D. Seitz,"The Prevalence of Addictions and Mental Health Problems among Individuals Experiencing Homelessness: A Systematic Review and Meta-analysis", JAMA Psychiatry, vol. 81, no. 7, p. 692-699. [(DOI)](https://doi.org/10.1001/jamapsychiatry.2024.0426)
+1. R. Barry, J. Anderson, L. Tran, A. Bahji, G. Dimitropolous, S. M. Ghosh, J. Kirkham, G. Messier, S. Patten, K. Rittenbach, and D. Seitz,"The Prevalence of Addictions and Mental Health Problems among Individuals Experiencing Homelessness: A Systematic Review and Meta-analysis", JAMA Psychiatry, vol. 81, no. 7, p. 692-699, April, 2024. [(DOI)](https://doi.org/10.1001/jamapsychiatry.2024.0426)
 1. G. G. Messier, "A Simpler Method for Understanding Emergency Shelter Access Patterns", Journal of Social Distress and Homelessness, p. 1-7, December, 2023. [(DOI)](https://doi.org/10.1080/10530789.2023.2294599), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/SAM)
 1. G. G. Messier, C. John and A. Malik, "Predicting Chronic Homelessness: The Importance of Comparing Algorithms using Client Histories", Journal of Technology in Human Services, September, 2021, p. 1-12. [(DOI)](https://doi.org/10.1080/15228835.2021.1972502) [(arXiv preprint)](https://arxiv.org/abs/2105.15080), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/Client%20History%20Evaluation)
 1. G. G. Messier, L. Tutty and C. John, "The Best Thresholds for Rapid Identification of Episodic and Chronic Homeless Shelter Use", International Journal on Homelessness, Vol. 2, No. 1, November, 2021, p. 1-11  [(DOI)](https://doi.org/10.5206/ijoh.2022.1.13607), [(arXiv preprint PDF)](https://arxiv.org/abs/2105.01042), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/RAPID%20Tests)
 
 ### Book Chapters
 
-1. G. G. Messier, "A Graph Analysis of the Impact of COVID-19 on Emergency Housing Shelter Access Patterns" in Schiff, R., Wilkinson, A., Cullingham, S., & Buccieri, K. (Eds), "Pandemic Preparedness & Homelessness: International Lessons from COVID-19", Canadian Observatory on Homelessness Press, p. 462-485,  September, 2023. [(arXiv preprint)](https://arxiv.org/abs/2308.08028)
+1. G. G. Messier, "A Graph Analysis of the Impact of COVID-19 on Emergency Housing Shelter Access Patterns" in Schiff, R., Wilkinson, A., Cullingham, S., & Buccieri, K. (Eds), "Pandemic Preparedness & Homelessness: International Lessons from COVID-19", Canadian Observatory on Homelessness Press, p. 462-485,  2024. [(arXiv preprint)](https://arxiv.org/abs/2308.08028)
 
 ### Conference Proceedings
 1. M. Taib, J. Wu, S. Drew, G. G. Messier, "Enhancing Equitable Access to AI in Housing and Homelessness System of Care through Federated Learning", accepted to 2024 AAAI/ACM Conference on Artificial Intelligence, Ethics and Society, October, 2024.
