@@ -12,7 +12,9 @@ The following list of publications includes links to preprint versions of each p
 
 
 ### Journal Papers
-
+1. S. Monty Ghosh, K. C. Sikdar, A. Koleade, J. Ross, W. Rioux, E. S. Lang, G. Messier, R. Tanguay, S. E. Congly, S. Van den Berg, and K. L. Tang, “Illnesses Associated With In- creased Length of Stay for Individuals Experiencing Homelessness: A Retrospective Cohort Study of Emergency Department Visits and Hospitalisations,” Journal of Evaluation in Clinical Practice, vol. 31, no. 1, e214236, 2025, issn: 1365-2753. [(DOI)](https://doi.org/10.1111/jep.14236).
+1. F. Shahidi, M. E. Macdonald, D. Seitz, R. Barry, and G. Messier, “Exploring the Prepro- cessing of a Time-Series Healthcare Administrative Dataset on Deep Learning to Improve Prediction,” IEEE Access, vol. 13, pp. 3485–3496, 2025, issn: 2169-3536. [(DOI)](https://doi.org/10.1109/ACCESS.2024.3520425).
+1. R. Barry, J. Anderson, L. Tran, A. Bahji, G. Dimitropoulos, S. M. Ghosh, J. Kirkham, G. Messier, S. B. Patten, K. Rittenbach, and D. Seitz, “Prevalence of Mental Health Disorders Among Individuals Experiencing Homelessness: A Systematic Review and Meta- Analysis,” JAMA Psychiatry, vol. 81, no. 7, pp. 692–699, Apr. 2024, issn: 2168-622X. [(DOI)](https://doi.org/10.1001/jamapsychiatry.2024.0426).
 1. M. Taib and G. G. Messier, "Efficient Observation Time Window Segmentation for Administrative Data Machine Learning",  IEEE Access, vol. 11, p. 1-11, October, 2024. [(DOI)](https://doi.org/10.1109/ACCESS.2024.3484270)
 1. R. Barry, J. Anderson, L. Tran, A. Bahji, G. Dimitropolous, S. M. Ghosh, J. Kirkham, G. Messier, S. Patten, K. Rittenbach, and D. Seitz,"The Prevalence of Addictions and Mental Health Problems among Individuals Experiencing Homelessness: A Systematic Review and Meta-analysis", JAMA Psychiatry, vol. 81, no. 7, p. 692-699, April, 2024. [(DOI)](https://doi.org/10.1001/jamapsychiatry.2024.0426)
 1. G. G. Messier, "A Simpler Method for Understanding Emergency Shelter Access Patterns", Journal of Social Distress and Homelessness, p. 1-7, December, 2023. [(DOI)](https://doi.org/10.1080/10530789.2023.2294599), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/SAM)
@@ -20,11 +22,10 @@ The following list of publications includes links to preprint versions of each p
 1. G. G. Messier, L. Tutty and C. John, "The Best Thresholds for Rapid Identification of Episodic and Chronic Homeless Shelter Use", International Journal on Homelessness, Vol. 2, No. 1, November, 2021, p. 1-11  [(DOI)](https://doi.org/10.5206/ijoh.2022.1.13607), [(arXiv preprint PDF)](https://arxiv.org/abs/2105.01042), [(source code)](https://github.com/ggmessier/data-analytics/tree/master/pubs/RAPID%20Tests)
 
 ### Book Chapters
-
 1. G. G. Messier, "A Graph Analysis of the Impact of COVID-19 on Emergency Housing Shelter Access Patterns" in Schiff, R., Wilkinson, A., Cullingham, S., & Buccieri, K. (Eds), "Pandemic Preparedness & Homelessness: International Lessons from COVID-19", Canadian Observatory on Homelessness Press, p. 462-485,  2024. [(arXiv preprint)](https://arxiv.org/abs/2308.08028)
 
 ### Conference Proceedings
-1. M. Taib, J. Wu, S. Drew, G. G. Messier, "Enhancing Equitable Access to AI in Housing and Homelessness System of Care through Federated Learning", accepted to 2024 AAAI/ACM Conference on Artificial Intelligence, Ethics and Society, October, 2024.
+1. M. Taib, J. Wu, S. Drew, and G. G. Messier, “Enhancing Equitable Access to AI in Housing and Homelessness System of Care through Federated Learning,” Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, vol. 7, pp. 1434–1443, Oct. 2024, issn: 3065-8365. [(DOI)](https://doi.org/10.1609/aies.v7i1.31735).
 1. T. W. Masrani, H. Ai He, G. G. Messier, "The Human Behind the Data: Reflections from an Ongoing Co-Design and Deployment of a Data-Navigation Interface for Front-Line Emergency Housing Shelter Staff", CHI Conference on Human Factors in Computing Systems, April, 2023, pp. 1-7. [(DOI)](https://doi.org/10.1145/3544549.3585694)
 
 ### Presentations
