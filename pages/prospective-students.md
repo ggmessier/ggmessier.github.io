@@ -20,7 +20,6 @@ I am always interested in reviewing applications from well qualified students in
   * A complete CV summarizing both your academic and work experience.
   * A scanned version of your transcripts.
   * A one page letter explaining why you feel you are a good fit for an opening in my group.  The more specific you can be, the better your chances.
-  * An indication of whether you already have financial support or if you will require funding from the University of Calgary.
 
 I tend not to consider “form letters”,  generic emails sent to a large number of recipients or CV's aimed at research areas that are clearly different than my own.  I will consider your application only if it is clear you have followed these instructions and have made an effort to put together an application that is specifically for me.
 

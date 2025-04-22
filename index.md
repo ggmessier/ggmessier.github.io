@@ -5,7 +5,7 @@
 layout: default
 ---
 
-I'm a Professor in [Electrical and Software Engineering](https://schulich.ucalgary.ca/electrical-software) in the [Schulich School of Engineering](https://schulich.ucalgary.ca/) at the [University of Calgary](https://ucalgary.ca/), Canada.  This site describes my research and teaching at the university as well some side projects that I'm doing for fun :)   You can check out a bit more on my background [here](pages/background).  
+I'm a Professor in [Electrical and Software Engineering](https://schulich.ucalgary.ca/electrical-software) in the [Schulich School of Engineering](https://schulich.ucalgary.ca/) at the [University of Calgary](https://ucalgary.ca/), Canada.  This site describes my research and teaching at the university.  You can check out a bit more on my background [here](pages/background).  
 
 **University Contact Information:**<br>
 2500 University Drive N.W.<br>
@@ -36,7 +36,6 @@ More detail on my research program can be found here:
 
 * [Learning How to Help People](pages/helping)
 * [Publications](pages/pubs)
-* [Data Science Resources](pages/data)
 * [Information for Prospective Graduate Students](pages/prospective-students)
 * [Information for Current Graduate Students](pages/current-students)
 
@@ -59,12 +58,5 @@ On my [YouTube Channel](https://www.youtube.com/channel/UC9lbQ5Kkad4yI338WcdQ1SQ
 - [Digital Communications](https://www.youtube.com/playlist?list=PL7sWxFnBVJLXpEiNn2IqD5sCHws4UG_sS) (graduate course)
 
 You can also view a list of the classes I've taught in the past [here](pages/teaching).
-
-
-## Hobbies and Diversions
-
-It's defintely fair to say that I got into electrical engineering mainly because it would help me have more fun with my hobby projects!  You can find assorted information about the various projects I'm enjoing on my [GitHub wiki](https://github.com/ggmessier/frogs/wiki).  Much of this is frog themed due to a long time love of [Kermit](https://en.wikipedia.org/wiki/Kermit_the_Frog) and the [role of frogs in our ecosystems](https://www.naturewatch.ca/wp-content/biguploads/senior_guide_712.pdf).
-
-
 
 
